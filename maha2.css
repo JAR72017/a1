@@ -1,0 +1,967 @@
+@charset "UTF-8";
+
+/* --- fc_online_count.css --- */
+
+.fc_list_view_count {
+	display: block;
+	float: right;
+	color: #557E2C !important;
+	background-color: #D5E9C0;
+	padding:2px 5px;
+	border-radius: 3px;
+	margin-top: 3px;
+	margin-left: 5px;
+	min-width: 118px;
+	text-align: center;
+}
+
+.fc_viewing_users_with_username_list
+{
+	background-color: rgb(254, 254, 254);
+	padding:8px;
+	margin:10px auto;
+	border: 1px solid rgb(216, 216, 216);
+	border-radius: 4px;
+	font-size: 13px;
+}
+
+.fc_viewing_users_with_username_list_h
+{
+	color: rgb(85, 126, 44);
+	background-color: rgb(213, 233, 192);
+	padding:8px 6px;
+	margin:0px auto 0;
+}
+
+.fc_viewing_user_list
+{
+	padding:5px 0px 0px 0px;
+}
+
+
+@media (max-width:480px)
+{
+	.Responsive .fc_list_view_count
+	{
+		display: none;
+	}
+	
+}
+
+/* --- lastPostAvatar.css --- */
+
+
+.lastPostInfo a.avatar img {
+	margin-left: 5px;
+margin-right: -1px;
+border: 1px solid #B3D892 !important;;border-radius: 4px !important;float: right;
+width: 33px;
+height: 33px;
+
+}
+
+.nodeLastPost a.avatar img {
+	margin-left: 5px;
+margin-right: -7px;
+float: right;
+width: 34px;
+height: 34px;
+
+}
+
+
+@media (max-width:610px)
+{
+	.lastPostInfo a.avatar img
+	{
+		display: none;
+	}
+
+	.nodeLastPost a.avatar img
+	{
+		display: none;
+	}
+}
+
+
+/* --- login_bar.css --- */
+
+/** Login bar basics **/
+
+#loginBar
+{
+	color: rgb(254, 254, 254);
+background-color: rgb(52, 52, 52);
+position: relative;
+z-index: 1;
+
+}
+
+	#loginBar .ctrlWrapper
+	{
+		margin:0 10px;
+	}
+
+	#loginBar .pageContent
+	{
+		padding-top: 5px;
+		position: relative;
+		_height: 0px;
+	}
+
+	#loginBar a
+	{
+		color: rgb(254, 254, 254);
+
+	}
+
+	#loginBar form
+	{
+		padding:5px 0;
+margin:0 auto;
+display: none;
+line-height: 25px;
+position: relative;
+
+	}
+	
+		#loginBar .xenForm .ctrlUnit,		
+		#loginBar .xenForm .ctrlUnit > dt label
+		{
+			margin:0;
+			border: none;
+		}
+	
+		#loginBar .xenForm .ctrlUnit > dd
+		{
+			position: relative;
+		}
+	
+	#loginBar .lostPassword,
+	#loginBar .lostPasswordLogin
+	{
+		font-size: 11px;
+	}
+	
+	#loginBar .rememberPassword
+	{
+		font-size: 11px;
+	}
+
+	#loginBar .textCtrl
+	{
+		color: rgb(254, 254, 254);
+background-color: rgb(52, 52, 52);
+border: 1px solid rgb(124, 124, 124);
+border-radius: 0px;
+
+	}
+	
+	#loginBar .textCtrl[type=text]
+	{
+		font-weight: bold;
+font-size: 18px;
+
+	}
+
+	#loginBar .textCtrl:-webkit-autofill /* http://code.google.com/p/chromium/issues/detail?id=1334#c35 */
+	{
+		background: rgb(52, 52, 52) !important;
+		color: rgb(254, 254, 254);
+	}
+
+	#loginBar .textCtrl:focus
+	{
+		background-color: rgb(69, 69, 69);
+border: 1px solid rgb(90, 180, 229);
+
+	}
+	
+	#loginBar input.textCtrl.disabled
+	{
+		color: rgb(216, 216, 216);
+background-color: rgb(52, 52, 52);
+border-style:dotted;
+
+	}
+	
+	#loginBar .button
+	{
+		min-width: 85px;
+		*width: 85px;
+	}
+	
+		#loginBar .button.primary
+		{
+			font-weight: bold;
+		}
+		
+/** changes when eAuth is present **/
+
+#loginBar form.eAuth
+{
+	-x-max-width: 700px; /* normal width + 170px */
+}
+
+	#loginBar form.eAuth .ctrlWrapper
+	{
+		border-left: 1px dotted rgb(31, 101, 139);
+		margin-left: 200px;
+		box-sizing: border-box;
+	}
+
+	#loginBar form.eAuth #eAuthUnit
+	{
+		position: absolute;
+		top: 0px;
+		left: 10px;
+	}
+
+		#eAuthUnit li
+		{
+			margin-top: 10px;
+			line-height: 0;
+		}
+	
+/** handle **/
+
+#loginBar #loginBarHandle
+{
+	font-size: 11px;
+color: rgb(254, 254, 254);
+background-color: rgb(52, 52, 52);
+padding:0 8px;
+margin-left: 30px;
+border-bottom-left-radius: 3px;
+border-bottom-right-radius: 3px;
+position: absolute;
+left: 0px;
+bottom: -23px;
+text-align: center;
+z-index: 1;
+line-height: 27px;
+
+}
+
+
+@media (max-width:800px)
+{
+	.Responsive #loginBar form.eAuth .ctrlWrapper
+	{
+		border-left: none;
+		margin-left: 10px;
+	}
+
+	.Responsive #loginBar form.eAuth #eAuthUnit
+	{
+		position: static;
+		width: 180px;
+		margin:0 auto 10px;
+	}
+}
+
+
+/* --- node_list.css --- */
+
+.nodeList { zoom: 1; }
+.nodeList .node {
+	zoom: 1;
+	vertical-align: bottom;
+}
+
+.nodeList .node.level_1
+{
+	margin-bottom: 20px;
+}
+
+.nodeList .node.level_1:last-child
+{
+	margin-bottom: 0;
+}
+
+.nodeList .node.groupNoChildren + .node.groupNoChildren
+{
+	margin-top: -20px;
+}
+
+.node .nodeInfo
+{
+	overflow: hidden; zoom: 1;
+	position: relative;
+}
+
+	.node .nodeInfo.primaryContent,
+	.node .nodeInfo.secondaryContent
+	{
+		padding:0;
+	}
+
+.node .nodeIcon
+{
+	margin:14px 0;
+float: right;
+width: 46px;
+height: 44px;
+	
+}
+
+	.node .forumNodeInfo .nodeIcon,
+	.node .categoryForumNodeInfo .nodeIcon
+	{
+		background-image: url('styles/4ALGERIA.V2.0/xenforo/forumIcons.png');
+background-repeat: no-repeat;
+background-position: -0px -0px;
+
+		/*opacity: 0.6;*/
+	}
+
+	.node .forumNodeInfo.unread .nodeIcon,
+	.node .categoryForumNodeInfo.unread .nodeIcon
+	{
+		background-image: url('styles/4ALGERIA.V2.0/xenforo/forumIcons.png');
+background-repeat: no-repeat;
+background-position: -0px -0px;
+
+		/*opacity: 1;*/
+	}
+
+	.node .pageNodeInfo .nodeIcon
+	{
+		background-image: url('styles/4ALGERIA.V2.0/xenforo/node-sprite.png');
+background-repeat: no-repeat;
+background-position: -72px 0;
+
+	}
+
+	.node .linkNodeInfo .nodeIcon
+	{
+		background-image: url('styles/4ALGERIA.V2.0/xenforo/node-sprite.png');
+background-repeat: no-repeat;
+background-position: -108px 0;
+
+	}
+
+.node .nodeText
+{
+	margin:10px 56px 10px 285px;
+
+}
+
+	.node .nodeText .nodeTitle
+	{	
+		font-size: 14px;
+
+	}
+	
+		.node .unread .nodeText .nodeTitle
+		{
+			font-weight: bold;
+
+		}
+
+	.node .nodeDescription
+	{
+		font-size: 11px;
+
+	}
+	
+	.hasJs .node .nodeDescriptionTooltip
+	{
+		/* will be shown as a tooltip */
+		display: none;
+	}
+	
+	.Touch .node .nodeDescriptionTooltip
+	{
+		/* touch browsers don't see description tooltips */
+		display: block;
+	}
+
+	.node .nodeStats
+	{
+		font-size: 12px;
+
+	}
+	
+	.node .nodeStats dl
+	{
+		margin-top: 3px;
+		min-width: 118px;
+		text-align: center;
+	}
+	
+	.subForumsPopup
+		{
+		margin-top: 3px;
+		/*min-width: 135px;*/
+		/*text-align: center;*/
+	}
+	
+	.node .nodeExtraNote
+	{
+		text-align: left;
+		font-size: 11px;
+		color: rgb(106, 106, 106);
+	}
+	
+	.node .subForumList
+	{
+		overflow: hidden; *zoom: 1;
+		margin:-5px 0 10px;
+		margin-right: 56px;
+	}
+	
+		.node .subForumList li
+		{
+			float: right;
+			width: 31%;
+			margin:2px 2% 2px 0;
+		}
+		
+			.node .subForumList li .nodeTitle
+			{
+				font-size: 11px;
+				overflow: hidden;
+				white-space: nowrap;
+				word-wrap: normal;
+				text-overflow: ellipsis;
+			}
+			
+			.node .subForumList .unread .nodeTitle
+			{
+				font-weight: bold;
+
+			}
+		
+			.node .subForumList li ol,
+			.node .subForumList li ul
+			{
+				display: none;
+			}
+
+.node .nodeLastPost
+{
+	background-color: rgb(254, 254, 254);
+padding:8px;
+
+	
+	font-size: 11px;
+background-color: rgb(245, 245, 245);
+padding:3px 10px;
+margin:12px 10px 12px 0px;
+border: 1px solid rgb(216, 216, 216);
+border-radius: 3px;
+position: absolute;
+top: 0;
+left: 0;
+line-height: 20px;
+white-space: nowrap;
+word-wrap: normal;
+overflow: hidden;
+width: 240px;
+height: 40px;
+
+}
+
+.node .nodeLastPost .lastThreadTitle
+{
+	text-overflow: ellipsis;
+	max-width: 100%;
+	display: block;
+	overflow: hidden;
+}
+
+	.node .nodeLastPost .lastThreadMeta
+	{
+		display: block;
+	}
+
+	.node .nodeLastPost .noMessages
+	{
+		line-height: 40px;
+	}
+
+.node .nodeControls
+{
+	position: absolute;
+	top: 0;
+	left: 262px;
+	margin:25px 0;
+}
+
+	.node .tinyIcon
+	{
+		font-size: 14px;
+color: rgb(255, 102, 0);
+margin-left: 4px;
+opacity: 0.35;
+
+	}
+
+	.node .nodeInfo:hover .tinyIcon[href],
+	.Touch .node .tinyIcon
+	{
+		color: rgb(255, 102, 0);
+opacity: 1;
+
+	}
+
+		/*.node .feedIcon
+		{
+			background: transparent url('styles/4ALGERIA.V2.0/xenforo/xenforo-ui-sprite.png') no-repeat -112px -16px;
+		}*/
+
+/* description tooltip */
+
+.nodeDescriptionTip
+{
+	padding:4px 10px;
+margin-top: -22px;
+line-height: 1.5;
+width: 350px;
+height: auto;
+
+}
+
+	.nodeDescriptionTip .arrow
+	{
+		border: 6px solid transparent;
+border-left-color:  rgb(20,20,20); border-left-color:  rgba(20,20,20, 0.6); _border-left-color:  rgb(20,20,20);
+border-right: 1px none black;
+top: 6px;
+right: -6px;
+bottom: auto;
+
+	}
+	
+	.nodeDescriptionTip.arrowBottom .arrow
+	{
+		top: auto;
+		right: 10px;
+		bottom: -6px;
+		border: 6px solid transparent;
+		border-top-color:  rgb(20,20,20); border-top-color:  rgba(20,20,20, 0.6); _border-top-color:  rgb(20,20,20);
+		border-bottom: 1px none black;
+	}
+	
+/* main area - used for L2 categories and most other nodes */
+
+.nodeList .categoryForumNodeInfo,
+.nodeList .forumNodeInfo,
+.nodeList .pageNodeInfo,
+.nodeList .linkNodeInfo
+{
+	background-color: rgb(254, 254, 254);
+padding:10px;
+border-bottom: 1px solid rgb(216, 216, 216);
+*/
+	
+	/*
+/*background-color: rgb(254, 254, 254);*/
+
+	
+	padding:0;
+}
+
+/* category strip - used for L1 categories and group headers */
+
+.nodeList .categoryStrip
+{
+	font-weight: bold;
+font-size: 12px;
+color: rgb(85, 126, 44);
+background-color: rgb(213, 233, 192);
+padding:8px 10px;
+margin:0px auto 0;
+
+	
+	background-color: rgb(147, 199, 98);
+padding:7px 10px;
+border-radius: 4px;
+#min-height: 6px;
+
+}
+
+	.nodeList .categoryStrip .nodeTitle
+	{
+		font-weight: bold;
+font-size: 15px;
+color: rgb(255, 255, 255);
+text-align: center;
+text-shadow: 0px 1px 1px rgb(85, 126, 44);
+
+	}
+	
+		.nodeList .categoryStrip .nodeTitle a
+		{
+			color: rgb(255, 255, 255);
+		}
+
+	.nodeList .categoryStrip .nodeDescription
+	{
+		font-size: 10px;
+color: rgb(255, 255, 255);
+
+	}
+	
+		.nodeList .categoryStrip .nodeDescription a
+		{
+			color: rgb(255, 255, 255);
+		}
+
+
+.nodeList .node.groupNoChildren + .node.groupNoChildren .categoryStrip
+{
+	display: none;
+}
+
+/* node stats area */
+
+.nodeStats
+{
+	overflow: hidden; zoom: 1;
+}
+
+.nodeStats dl 
+{
+	float: right;
+	display: block;
+	margin-left: 5px;
+}
+.subForumsPopup
+{
+	float: right;
+	display: block;
+}
+
+.nodeStats dl {
+	color: rgb(31, 101, 139) !important;
+	background-color: rgb(217, 235, 235);
+	padding:2px 5px;
+	border-radius: 3px;
+}
+
+.nodeStats dt {
+	color: rgb(31, 101, 139) !important;
+}
+
+.subForumsPopup {
+	color: rgb(189, 100, 2) !important;
+	background-color: rgb(254, 215, 171);
+	border-radius: 3px;
+}
+
+.subForumsPopup .dt, .subForumsPopup .arrowWidget {
+	color: rgb(189, 100, 2) !important;
+}
+ 
+.subForumsPopup .PopupOpen .dt , .subForumsPopup .PopupOpen .arrowWidget {
+	color: #FFF !important;
+}
+
+.subForumsPopup.Popup .PopupControl.PopupOpen
+{
+	color: rgb(255, 255, 255) !important;
+	background-image: none;
+}
+
+.subForumsPopup a.PopupControl
+{
+	padding:1px 6px !important;
+	line-height: 1.728;
+}
+
+.subForumsPopup .dt
+{
+	color: rgb(106, 106, 106);
+}
+
+.subForumsPopup .PopupOpen .dt
+{
+	color: #FFFFFF;
+}
+
+.subForumsMenu .node .node /* for depths 2+ */
+{
+	padding-right: 10px;
+}
+
+	.subForumsMenu .node .nodeTitle
+	{
+		font-size: 11px;
+	}
+	
+	.subForumsMenu .node .unread .nodeTitle
+	{
+		font-weight: bold;
+
+	}
+	
+/** new discussion button below nodelist **/
+
+.nodeListNewDiscussionButton
+{
+	margin-top: 10px;
+	text-align: left;
+}
+
+
+	
+
+
+
+@media (max-width:800px)
+{
+
+}
+
+@media (max-width:610px)
+{
+	
+	.Responsive .node .nodeText
+	{
+		margin-left: 0;
+	}
+	
+	.Responsive.Touch .node .nodeDescriptionTooltip,
+	.Responsive .node .nodeDescription
+	{
+		display: none;
+	}
+	
+	.Responsive .node .nodeLastPost
+	{
+		position: static;
+		height: auto;
+		width: auto;
+		background: none;
+		border: none;
+		padding:0;
+		margin:-8px 56px 10px 0;
+	}
+	
+		.Responsive .node .nodeLastPost .noMessages 
+		{
+			display: none;
+		}
+		
+		.Responsive .node .nodeLastPost .lastThreadTitle,
+		.Responsive .node .nodeLastPost .lastThreadUser
+		{
+			/*display: none;*/
+			max-width: 98%;
+			margin-top: 4px;
+		}
+				
+		.Responsive .node .nodeLastPost .lastThreadDate:before
+		{
+			/*content: attr(data-latest);*/
+		}
+
+		
+	.Responsive .node .nodeControls
+	{
+		display: none;
+	}
+		
+	.Responsive .node .subForumList
+	{
+		display: none;
+	}
+	
+	.Responsive .nodeDescriptionTip
+	{
+		width: auto;
+		max-width: 350px;
+	}
+	
+	
+	.Responsive .nodeStats dl {
+	color: rgb(106, 106, 106) !important;
+	background-color: transparent;
+	padding:0px;
+	border-radius: 0px;
+	}
+	
+	.Responsive .nodeStats dt {
+	color: rgb(106, 106, 106) !important;
+	}
+}
+
+@media (max-width:480px)
+{
+	.Responsive .subForumsPopup
+	{
+		display: none;
+	}
+	
+	.Responsive .node .nodeStats dl
+	{
+		text-align: right;
+	}
+	
+}
+
+
+/* --- rellect_adblock_detector.css --- */
+
+.AdBlockOn
+{
+	display: none;
+}
+
+.adblock_detector .alertIcon
+{
+	background-image: url('styles/4ALGERIA.V2.0/xenforo/xenforo-ui-sprite.png');
+background-repeat: no-repeat;
+background-position: -49px -33px;
+margin-top: 2px;
+margin-left: 4px;
+float: right;
+width: 15px;
+height: 15px;
+
+}
+
+.adblock_detector .errorMessage
+{
+	margin-right: 19px;
+}
+
+.adblock_detector a.close 
+{
+	font-weight: bold;
+font-size: 13pt;
+font-family: Arial, sans-serif;
+color: #ddd;
+background-color: #808080;
+padding:2px;
+margin-bottom: 10px;
+margin-right: 10px;
+border-radius: 50%;
+display: block;
+float: left;
+text-align: center;
+line-height: 12px;
+cursor: pointer;
+width: 12px;
+height: 12px;
+
+}
+
+/* Type: Floating Message -- */
+.adblock_floating_message
+{
+	background-color: #fcfcda;
+box-shadow: -0px 2px 10px 2px rgba(0,0,0,0.5);
+position: fixed;
+top: 0;
+left: 0;
+z-index: 9999;
+width: 100%;
+
+}
+
+.adblock_floating_message .errorDetails
+{
+	padding:10px;
+}
+/* -- Type: Floating Message */
+
+/* Type: Notice -- */
+.adblock_notice
+{
+	background-color: rgb(252, 241, 184);
+padding:8px;
+margin-bottom: 10px;
+border: 1px solid rgb(248, 227, 114);
+border-radius: 5px;
+color: rgb(85, 126, 44);
+font-size: 12px;
+font-weight: bold;
+
+}
+
+.adblock_notice .errorDetails
+{
+	color: rgb(20,20,20);
+padding:10px;
+background: #FCD4D4 url('styles/4ALGERIA.V2.0/xenforo/gradients/category-23px-light.png') repeat-x top right;
+
+}
+/* -- Type: Notice */
+
+/* Type: Notification -- */
+.adblock_notification
+{
+	margin-top: 5px;
+border: 1px solid #eba4a4;
+border-radius: 5px;
+position: relative;
+box-shadow: -2px 2px 5px 0 rgba(0,0,0, 0.4);
+width: 270px;
+
+}
+
+.adblock_notification_content
+{
+	font-size: 11px;
+color: rgb(20,20,20);
+padding:10px;
+border: 2px solid #fff;
+border-radius: 4px;
+background: rgb(235, 164, 164) url('styles/4ALGERIA.V2.0/xenforo/gradients/category-23px-light.png') repeat-x top right; background: rgba(235, 164, 164, 0.9) url('styles/4ALGERIA.V2.0/xenforo/gradients/category-23px-light.png') repeat-x top right;
+
+}
+/* -- Type: Notification */
+
+/* --- thread_list_simple.css --- */
+
+.threadListItem
+{
+	overflow: hidden; zoom: 1;
+
+	margin:5px 0;
+	padding-top: 5px;
+	border-top: 1px solid rgb(216, 216, 216);
+}
+
+.threadListItem:first-child
+{
+	border-top: none;
+	padding-top: 0;
+}
+
+.threadListItem .avatar
+{
+	float: right;
+	font-size: 0;
+}
+
+	.threadListItem .avatar img
+	{
+		width: 24px;
+		height: 24px;
+	}
+	
+.threadListItem .messageInfo
+{
+	margin-right: 34px;
+}
+
+.threadListItem .title
+{
+	padding:1px 0;
+}
+
+.threadListItem .title,
+.threadListItem .additionalRow
+{
+	overflow: hidden;
+	white-space: nowrap;
+	word-wrap: normal;
+	text-overflow: ellipsis;
+	max-width: 100%;
+}
+
+/* CSS returned from cache. */
