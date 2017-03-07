@@ -25,16 +25,8 @@
 				while (c.charAt(0)==' ') c = c.substring(1,c.length);
 				if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
 			}
-			return null;
-		}
-		function exchangeCSS(css){
-			$('link').each(function() {
-				var _link = $(this);
-				_link.attr("disabled",true);
-				(_link.attr('title') == css) ? _link.attr("disabled",false) : "";
-			});
-			createCookie('css', css, 365);
-		}
+			
+	
 		
 	};
 })(jQuery);
