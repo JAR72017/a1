@@ -6,17 +6,7 @@
 		var options = $.extend(defaults, options);
 		(readCookie('css')) ? exchangeCSS(readCookie('css')) : "";
 		
-		return this.each(function() {  
-			obj = $(this);
-			$("#exchanger").css({"display":"block"});
-			//click event on change css buttons
-			
-			$("select", obj).change(function(e){
-					exchangeCSS($(this).val());
-					return false;
-			});
-			
-		});  
+		
 		
 		function createCookie(name,value,days) {
 			if (days) {
