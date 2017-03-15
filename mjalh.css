@@ -325,7 +325,7 @@ header#theme-header:after, #signup_form:after, #buddypress:after, #main-nav:afte
 }
 
 .header-content{padding:25px 0; background:url(images/top-shadow.png) no-repeat top;}
-	.logo {float: left;}
+	.logo {float: right;}
 	.logo img{ max-width:100%;}
 	.logo h1, .logo h2{font:bold 32pt arial;}
 	.logo strong{ display:none;}
@@ -341,7 +341,7 @@ header#theme-header:after, #signup_form:after, #buddypress:after, #main-nav:afte
 }
 	#main-nav .container{position: relative;}
 	#main-nav  .menu-alert{
-		float:left;
+		float:right;
 		padding:18px 0 0 10px ;
 		font-style:italic;
 		color:#FFF;
@@ -353,7 +353,7 @@ header#theme-header:after, #signup_form:after, #buddypress:after, #main-nav:afte
 		font-size:16px;
 		position: relative;
 		display: inline-block;
-		float: left;
+		float: right;
 		border:1px solid #222222;
 		border-width:0 0 0 1px;
 		height:50px;
@@ -392,7 +392,7 @@ header#theme-header:after, #signup_form:after, #buddypress:after, #main-nav:afte
 			top: 50px;
 			width: 180px;
 			z-index: 99999;
-			float: left;
+			float: right;
 			background: #2d2d2d !important;
 			-webkit-box-shadow: 0 3px 4px 1px rgba(0, 0, 0, 0.2);
 			box-shadow: 0 3px 4px 1px rgba(0, 0, 0, 0.2);
