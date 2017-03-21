@@ -1,0 +1,3747 @@
+textarea, .bginput
+{
+	font: 10pt verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+}
+.bginput option, .bginput optgroup
+{
+	font-size: 10pt;
+	font-family: verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+}
+
+body {
+	background:#FFFFF4;
+	color:#434343;
+	font:bold 15px arial;
+	margin:0px 0px 0px 0px;
+	padding:0px;
+	font-size:100% !important;
+	list-style-type:none;
+        overflow: -moz-scrollbars-vertical; overflow-x: hidden; overflow-y: scroll;  
+}
+a:link,body_alink {
+	color:#058469;
+	text-decoration:none;
+        font-family: 'Droid Arabic Kufi';
+}
+a:visited,body_avisited {
+	color:#058469;
+	text-decoration:none;
+}
+a:hover,a:active,body_ahover {
+	color:#1AA6C0;
+	text-decoration:none;
+}
+.page {
+	background:#FFFFF4;
+	color:#000000;
+	padding-top:20px
+}
+
+td, th, p, li {
+
+    font: 10pt 'Droid Arabic Kufi';
+}
+.tborder {
+	background-color:#fbfbfb;
+	border: 1px solid #e0e0e0;
+	font-family:"Droid Arabic Kufi","Open Sans",sans-serif;
+	font-size:0.75em;
+	padding:4px;
+}
+.tborderforumhome {
+    background-color: #FBFBFB;
+    border: 1px solid #DBDBDB;
+    font-family: "Droid Arabic Kufi","Open Sans",sans-serif;
+    font-size: 0.75em;
+    overflow: hidden;
+    padding: 8px;
+}
+.tborderbar{
+    background-color: #FBFBFB;
+    border: 1px solid #DBE2E6;
+    font-family: "Droid Arabic Kufi","Open Sans",sans-serif;
+    font-size: 0.75em;
+    overflow: hidden;
+    padding: 4px;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+}
+.tbordersimilarthread {
+    background-color: #FBFBFB;
+    border: 1px solid #DBE2E6;
+    font-family: "Droid Arabic Kufi","Open Sans",sans-serif;
+    font-size: 0.75em;
+    overflow: hidden;
+    padding: 4px;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+
+}
+.tcat {
+	background:#93C762;
+	color:#FFFFFF;
+	font-family:"Droid Arabic Kufi","Open Sans",sans-serif;
+        font-weight: bold;
+	text-shadow:0 1px 0 #316301;
+}
+.tcat a:link,.tcat_alink {
+	color:#fff;
+        font-weight: bold;
+	text-decoration:none;
+}
+.tcat a:visited,.tcat_avisited {
+	color:#fff;
+        font-weight: bold;
+	text-decoration:none;
+}
+.tcat a:hover,.tcat a:active,.tcat_ahover {
+	color:#FFFFCC;
+        font-weight: bold;
+	text-decoration:underline;
+}
+.tcat-1 {
+    background: none repeat scroll 0% 0% #0080AE;
+    color: #FFF;
+    font-family: "Droid Arabic Kufi","Open Sans",sans-serif;
+    font-size: 12px;
+    line-height: 40px;
+    padding: 0px 8px;
+
+}
+.thead {
+	background:#D5E9C0;
+	color:#557E2C;
+	font-size:11px;
+	text-shadow:0 1px 0 #fff;
+	border-bottom:1px solid #BADC98;
+        font-family: "Droid Arabic Kufi","Open Sans",sans-serif;
+}
+.thead a:link,.thead_alink {
+	color:#268180;
+}
+.thead a:visited,.thead_avisited {
+	color:#268180;
+}
+.thead a:hover,.thead a:active,.thead_ahover {
+	color:#53b9b8;
+}
+.thead2 {
+    background: none repeat scroll 0% 0% #FFE0C9;
+    color: #FE6B00;
+    font-size: 12px;
+    font-weight: lighter;
+    padding: 0px 5px;
+    border-radius: 6px 6px 0px 0px;
+    border-width: 1px;
+    border-style: solid solid dotted;
+    border-color: #FFD3B3 #FFD3B3 #9F4C10;
+    -moz-border-top-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+
+}
+.thead2:hover {
+    background: none repeat scroll 0% 0% #FFD5B6;
+}
+
+.thead3 {
+    background: none repeat scroll 0% 0% #FFE0C9;
+    color: #000;
+    font-size: 12px;
+    font-weight: lighter;
+    border: 1px solid #FFD3B3;
+    padding: 1px 10px;
+
+}
+.theadforum{
+    background: none repeat scroll 0% 0% #17A5A9;
+    color: #FFF;
+    font-size: 12px;
+    font-weight: bold;
+    border: 1px solid #fff;
+    border-radius: 4px;
+}
+.theadforum a:link, .thead_alink{
+	color: rgba(10, 12, 12, 1);
+}
+.theadforum a:visited, .thead_avisited{
+	color:#268180;
+}
+.theadforum a:hover, .thead a:active, .thead_ahover{
+	color:#53b9b8;
+}
+
+.tfoot {
+	background:#708291;
+	color:#eaebeb;
+	font:bold 8pt tahoma;
+}
+.tfoot a:link,.tfoot_alink {
+	color:#FFFFFF;
+}
+.tfoot a:visited,.tfoot_avisited {
+	color:#FFFFFF;
+}
+.tfoot a:hover,.tfoot a:active,.tfoot_ahover {
+	color:#EFF8FA;
+}
+.statusbar{
+    background: none repeat scroll 0% 0% #FFF;
+    color: #003E73;
+    font-family: "Droid Arabic Kufi";
+    font-size: 12px;
+    border-bottom: 1px dotted #AAA;
+}
+
+.statusbar a:link, .statusbar_alink{
+	color: rgba(10, 12, 12, 1);
+}
+
+.statusbar a:visited, .statusbar_avisited{
+	color:#268180;
+}
+
+.statusbar a:hover, .thead a:active, .statusbar_ahover{
+	color:#53b9b8;
+}
+
+.toolbar {
+    background: none repeat scroll 0% 0% #D5E9C0;
+    color: #3A6213;
+    font-size: 12px;
+    font-weight: bold;
+    border-top: 1px solid #BADC98;
+    border-bottom: 1px solid #BADC98;
+}
+
+.toolbar a:link, .toolbar_alink{
+	color: #3A6213;
+        text-decoration: none;
+}
+
+.toolbar a:visited, .toolbar_avisited{
+	color:#3A6213;
+        text-decoration: none;
+}
+
+.toolbar a:hover, .toolbar a:active, .toolbar_ahover{
+	color:#75AD3D;
+        text-decoration: none;
+}
+.alt1,.alt1Active {
+	background:none repeat scroll 0 0 #fff;
+        border-bottom: 1px solid #dbe2e6;
+	color:#000000;
+}
+.alt2,.alt2Active {
+	background:none repeat scroll 0 0 #fff;
+	border-bottom:1px solid #dbe2e6;
+	color:#319998;
+}
+.alt3,.alt3Active {
+	background:none repeat scroll 0 0 #fff;
+        border-bottom:1px solid #dbe2e6;
+	color:#000000;
+}
+.inlinemod {
+	background:#CCE7EB;
+	color:#138698;
+}
+.inlinemod a:link,.inlinemod_alink {
+	color:#000000;
+}
+.inlinemod a:visited,.inlinemod_avisited {
+	color:#000000;
+}
+.inlinemod a:hover,.inlinemod a:active,.inlinemod_ahover {
+	color:#CCCCCC;
+}
+.wysiwyg {
+	background:#FFFFFF;
+	color:#000000;
+	font:bold 12pt arial;
+}
+textarea,.bginput {
+	background:#F9FFF2;
+	font:11px tahoma !important;
+	border:1px solid #D1EDB3;
+	border-radius:6px;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	padding:4px;
+	margin:5px 0;
+}
+
+textarea:focus,.bginput:focus {
+	background:#fff;
+	-webkit-box-shadow:0 0 10px #b4e6eb;
+	-moz-box-shadow:0 0 10px #b4e6eb ;
+	box-shadow:0 0 10px #b4e6eb;
+
+}
+.bginput option,.bginput optgroup {
+	font-size:11px;
+	font-family:tahoma !important;
+}
+.button {
+	font:12px "Droid Arabic Kufi","Open Sans",sans-serif !important;
+        background: none repeat scroll 0% 0% #FFF;
+        border: 1px solid #CCC;
+        color: #6B6B6B;
+        border-radius: 4px;
+        box-shadow: 0 0 2px #ccc;
+}
+.button:hover {    
+      background:none repeat scroll 0 0 #e6e6e6;
+      border: 1px solid #C0C0C0;
+      box-shadow: 0 0 2px #ccc;
+}
+select {
+	background:#fdfdfd;
+	color:#4e81a4;
+	font:12px "Droid Arabic Kufi","Open Sans",sans-serif !important;
+	border:1px solid #ccc;
+}
+option,optgroup {
+	font-size:12px;
+	font-family:"Droid Arabic Kufi","Open Sans",sans-serif !important;
+}
+.smallfont {
+	font-size:11px;
+	font-weight:lighter;
+	font-family:"Droid Arabic Kufi","Open Sans",sans-serif;
+}
+.time {
+	color:#FF0000;
+}
+.highlight {
+	color:#FF0000;
+	font-weight:bold;
+}
+.fjsel {
+	background:#708190;
+	color:#d1d5d9;
+}
+.fjdpth0 {
+	background:#CCCCCC;
+	color:#000000;
+}
+.fjdpth1 {
+	background:#FFFFFF;
+	color:#000000;
+}
+.fjdpth2 {
+	background:#FFFFFF;
+	color:#167E8E;
+}
+.panel {
+	background:#fefefe;
+	color:#000000;
+	padding:6px;
+	border:0px outset;
+        border-radius: 10px;
+}
+.panelsurround {
+	background:#fefefe;
+	color:#000000;
+}
+legend {
+	color:#2c9d9c;
+	font-size:11px;
+	font-weight:lighter;
+	font-family: 'Droid Arabic Kufi';
+}
+.vbmenu_control {
+	background:#5e7081;
+	color:#c2ced9;
+	border-top:1px solid #5e7081;
+}
+.vbmenu_control a:link,.vbmenu_control_alink {
+	color:#FFFFFF;
+	text-decoration:none;
+}
+.vbmenu_control a:visited,.vbmenu_control_avisited {
+	color:#FFFFFF;
+	text-decoration:none;
+}
+.vbmenu_control a:hover,.vbmenu_control a:active,.vbmenu_control_ahover {
+	color:#EFF8FA;
+	text-decoration:underline;
+}
+.vbmenu_popup {
+	background:none repeat scroll 0 0 #fff;
+	color:#ffe595;
+        font-family: 'Droid Arabic Kufi';
+        border: 1px solid #BADC98;
+}
+.vbmenu_option {
+	background:#FFFFFF;
+	color:#000000;
+	font:11px tahoma;
+	white-space:nowrap;
+	cursor:pointer;
+}
+.vbmenu_option a:link,.vbmenu_option_alink {
+	color:#0B7181;
+	text-decoration:none;
+}
+.vbmenu_option a:visited,.vbmenu_option_avisited {
+	color:#0B7181;
+	text-decoration:none;
+}
+.vbmenu_option a:hover,.vbmenu_option a:active,.vbmenu_option_ahover {
+	color:#1AA6C0;
+	text-decoration:none;
+}
+.vbmenu_hilite {
+	background:#FEFDF3;
+	color:#000000;
+	font:11px tahoma;
+	white-space:nowrap;
+	cursor:pointer;
+}
+.vbmenu_hilite a:link,.vbmenu_hilite_alink {
+	color:#0B7181;
+	text-decoration:none;
+}
+.vbmenu_hilite a:visited,.vbmenu_hilite_avisited {
+	color:#0B7181;
+	text-decoration:none;
+}
+.vbmenu_hilite a:hover,.vbmenu_hilite a:active,.vbmenu_hilite_ahover {
+	color:#1BBDD5;
+	text-decoration:none;
+}
+.VbmenuPopup {
+
+        border: 1px solid #BADC98;
+}
+.bigusername {
+	font-size:12pt;
+}
+/* ***** styling for 'big' usernames on postbit etc. ***** */
+.bigusername { font-size: 14pt; }
+
+textarea {
+    padding: 3px 3px 0px 0px;
+    margin: 0px;
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.bginput {
+    font-family: "Droid Arabic Kufi", Tahoma, Calibri, Verdana, Geneva, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+/* ***** small padding on 'thead' elements ***** */
+td.thead, th.thead, div.thead { padding: 4px; }
+
+/* ***** de-emphasized text */
+.shade, a.shade:link, a.shade:visited { color: #777777; text-decoration: none; }
+a.shade:active, a.shade:hover { color: #FF4400; text-decoration: underline; }
+.tcat .shade, .thead .shade, .tfoot .shade { color: #DDDDDD; }
+
+/* ***** define margin and font-size for elements inside panels ***** */
+.fieldset { margin-bottom: 6px; }
+.fieldset, .fieldset td, .fieldset p, .fieldset li { font-size: 11px; font-weight: normal; font-family: 'Droid Arabic Kufi'; }
+
+/* ***** basic styles for multi-page nav elements */
+.pagenav a { text-decoration: none;}
+.pagenav td { padding: 2px 4px 2px 4px; }
+
+
+/********* Droid Arabic Kufi (Arabic) *********/
+
+@font-face {
+  font-family: 'Droid Arabic Kufi';
+  font-style: normal;
+  font-weight: 400;
+  src: url(//fonts.gstatic.com/ea/droidarabickufi/v6/DroidKufi-Regular.eot);
+  src: url(//fonts.gstatic.com/ea/droidarabickufi/v6/DroidKufi-Regular.eot?#iefix) format('embedded-opentype'),
+       url(//fonts.gstatic.com/ea/droidarabickufi/v6/DroidKufi-Regular.woff2) format('woff2'),
+       url(//fonts.gstatic.com/ea/droidarabickufi/v6/DroidKufi-Regular.woff) format('woff'),
+       url(//fonts.gstatic.com/ea/droidarabickufi/v6/DroidKufi-Regular.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Droid Arabic Kufi';
+  font-style: normal;
+  font-weight: 700;
+  src: url(//fonts.gstatic.com/ea/droidarabickufi/v6/DroidKufi-Bold.eot);
+  src: url(//fonts.gstatic.com/ea/droidarabickufi/v6/DroidKufi-Bold.eot?#iefix) format('embedded-opentype'),
+       url(//fonts.gstatic.com/ea/droidarabickufi/v6/DroidKufi-Bold.woff2) format('woff2'),
+       url(//fonts.gstatic.com/ea/droidarabickufi/v6/DroidKufi-Bold.woff) format('woff'),
+       url(//fonts.gstatic.com/ea/droidarabickufi/v6/DroidKufi-Bold.ttf) format('truetype');
+}
+
+/********* Droid Arabic Naskh (Arabic) *********/
+
+@font-face {
+  font-family: 'Droid Arabic Naskh';
+  font-style: normal;
+  font-weight: 400;
+  src: url(//fonts.gstatic.com/ea/droidarabicnaskh/v7/DroidNaskh-Regular.eot);
+  src: url(//fonts.gstatic.com/ea/droidarabicnaskh/v7/DroidNaskh-Regular.eot?#iefix) format('embedded-opentype'),
+       url(//fonts.gstatic.com/ea/droidarabicnaskh/v7/DroidNaskh-Regular.woff2) format('woff2'),
+       url(//fonts.gstatic.com/ea/droidarabicnaskh/v7/DroidNaskh-Regular.woff) format('woff'),
+       url(//fonts.gstatic.com/ea/droidarabicnaskh/v7/DroidNaskh-Regular.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Droid Arabic Naskh';
+  font-style: normal;
+  font-weight: 700;
+  src: url(//fonts.gstatic.com/ea/droidarabicnaskh/v7/DroidNaskh-Bold.eot);
+  src: url(//fonts.gstatic.com/ea/droidarabicnaskh/v7/DroidNaskh-Bold.eot?#iefix) format('embedded-opentype'),
+       url(//fonts.gstatic.com/ea/droidarabicnaskh/v7/DroidNaskh-Bold.woff2) format('woff2'),
+       url(//fonts.gstatic.com/ea/droidarabicnaskh/v7/DroidNaskh-Bold.woff) format('woff'),
+       url(//fonts.gstatic.com/ea/droidarabicnaskh/v7/DroidNaskh-Bold.ttf) format('truetype');
+}
+
+/********* Input Buttons *********/
+
+input[type="submit"], input[type="reset"], input[type="button"]{
+    background: #FEFEFE;
+    color: #7C7C7C;
+    border: 1px solid #CCC;
+    border-radius: 3px;
+    box-shadow: 0px 0px 2px #CCC;
+    margin: 2px;
+    text-decoration: none;
+    #text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.3);
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+input[type="submit"]:hover, input[type="reset"]:hover, input[type="button"]:hover {
+    background: #ECECF2;
+    color: #7C7C7C;
+    text-decoration: none;
+    #text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.5);
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    cursor: pointer;
+}
+/********* Header *********/
+
+
+#header {
+  background:none repeat scroll 0 0 #fff;
+}
+
+#header .top-header {
+  background: none repeat scroll 0px 0px #93c762;
+  border-bottom: 1px solid #7FB74A;
+  width: 100%;
+  height: 57px; 
+  overflow:hidden;
+  display: table; 
+}
+#header .top-header .cont {
+	width:90%;
+	margin:0 auto;
+} 
+#header .top-header .cont .logo {
+      float:right;
+      margin-right: 30px;
+      margin-TOP: 1px;    
+}
+#headertag {
+    font-family: 'Droid Arabic Kufi';
+    font-weight: lighter;
+    margin: 0px;
+    color: #fff;
+    padding: 4px 0px 0px 0px;
+}
+
+
+
+.LeftTopHeaderSearch {
+	float:right;
+	margin-top: 12px;
+        margin-right: 20px;
+	padding:0;
+}
+.LeftTopHeaderSearch .LeftTopHeaderSearchinput {
+	background-color:#fff;
+	border:medium none;
+	border-radius:0 5px 5px 0;
+	color:#AAAAAA;
+	font-family:"Droid Arabic Kufi","Open Sans",sans-serif;
+	font-size:0.87em;
+	height:28px;
+	padding:1px 3px;
+	transition:all 0.5s ease-out 0s;
+	width:200px;
+}
+.LeftTopHeaderSearch .LeftTopHeaderSearchinput:focus {
+	background-color:#fff;
+	color:#AAAAAA;
+	transition:all 0.5s ease-out 0s;
+	width:230px;
+}
+.LeftTopHeaderSearch .LeftTopHeaderSearchbutton {
+	background:none repeat scroll 0 0 #FAFAFA;
+	border:medium none;
+	border-radius:5px 0 0 5px;
+	color:#C9C9C9;
+	cursor:pointer;
+	font-family:"Droid Arabic Kufi","Open Sans",sans-serif;
+	font-size:0.87em;
+	font-weight:bold;
+	height:30px;
+	margin-right:-5px;
+	padding:0 3px;
+	transition:all 0.2s ease 0s;
+}
+.LeftTopHeaderSearch .LeftTopHeaderSearchbutton:hover {
+	background-color:#427b0c;
+	color:#fff;
+	transition:all 0.2s ease 0s;
+}
+
+
+
+
+
+.upload {
+    float: left;
+    margin-top: 11px;
+    font-size: 25px;
+}
+.account {
+    float: left;
+    margin-top: 10px;
+    font-size: 25px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+#login-cp {
+	    float: left;
+            width: auto;;
+}
+
+#login-cp .FormLogin {
+	    float:right;
+	    margin-top: 3px;
+	    padding:13px;
+        width: auto;
+        margin-right: 10px;
+
+}
+#login-cp .thumb {
+     border: 1px solid #fff;
+     box-shadow: 0px 0px 3px #AAA;
+     float: right;
+     height: 30px;
+     margin-right: 30px;
+     width: 30px;
+     text-align: center;
+     margin-top: 11px;
+     border-radius: 50px;
+  }
+#login-cp .FormLogin .usernameee {
+    float: right;
+    width:auto;
+    margin-right: -10px;
+    color:#F2F2F2;
+    font-family:'Droid Arabic Kufi';
+    margin-top: -3px;
+    font-weight: bold;
+ 
+}
+#login-cp .FormLogin  .usernameee a {
+    	color:#fff; 
+}
+#login-cp .FormLogin  .infoo {
+     position:absolute;
+     right: 260px;
+     top:20px;
+     width:247px;
+     font-family:'Droid Arabic Kufi'; 
+     color: #706F6F;
+     font-size: 14px;
+}
+#login-cp .FormLogin .usercp {
+    float: right;
+    padding-bottom: 10px;
+    padding-left: 10px;
+
+}
+.register {
+    border-radius: 5px;
+    color: #fff;
+    display: block;
+    float: left;
+    font-family: "Droid Arabic Kufi", tahoma;
+    font-size: 12px;
+    height: 28px;
+    line-height: 27px;
+    margin-right: 10px;
+    margin-top: 14px;
+    width: 105px;
+    cursor: pointer;
+    border:1px solid #BADC98;
+    font-weight: bold;
+    text-align: center;
+    
+    }  
+.register:hover{
+	color:#fff;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.register_new {
+    border-radius: 5px;
+    float: left;
+    font-family: "Droid Arabic Kufi", tahoma;
+    font-size: 12px;
+    height: 28px;
+    line-height: 27px;
+    margin-right: 10px;
+    margin-top: 14px;
+    width: 105px;
+    text-align: center;
+    border:1px solid #BADC98;
+
+
+}
+.register_new:hover{
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+.forget {
+    border-radius: 5px;
+    display: block;
+    float: left;
+    font-family: "Droid Arabic Kufi", tahoma;
+    font-size: 12px;
+    height: 28px;
+    line-height: 27px;
+    margin-right: 10px;
+    margin-top: 14px;
+    width: 110px;
+    border:1px solid #BADC98;
+    text-align: center;
+}
+
+.forget:hover{
+      border: 1px solid rgba(255, 255, 255, 0.2);
+	
+}
+
+.sidebar-frame{
+  border:none;
+}
+.tcbody{
+  font-family:tahoma;
+  padding:0;
+  margin:0
+}.tclink{
+  font-size:12px;color:#AAA
+}
+#loginshade{
+  display:none;
+  z-index:99999;
+  position:fixed;
+  top:0px;
+  left:0px;
+  width:100%;
+  height:100%;
+  background-color:rgba(0,0,0,0.5);
+}
+#loginbox {
+    width: 100%;
+    position: fixed;
+    top: 10%;
+}
+
+#logincontent {
+    position: relative;
+    background-color: #FFF;
+    width: 450px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+    font-family: "Droid Arabic Kufi";
+    color: #666;
+    border-radius: 10px;
+}
+
+.closelogin {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    color: #FFF;
+    cursor: pointer;
+    font-family: tahoma;
+    font-size: 15px;
+}
+
+#loginhead {
+    background-color: #93c762;
+    border-radius: 5px;
+    height: 90px;
+    margin-bottom: 15px;
+}
+
+#logincontent {
+    font-family: "Droid Arabic Kufi";
+    color: #666;
+    height: 380px;
+}
+.logininp {
+    font-family: "Droid Arabic Kufi";
+    cursor: pointer;
+    border: 1px solid #DEDEDE;
+    margin-bottom: 10px;
+    padding: 7px;
+    width: 80%;
+    margin-top: 8px;
+}
+.logininp:hover{
+  box-shadow:0px 1px 1px rgba(0,0,0,0.1);
+}
+.logininp:focus{
+  box-shadow:0px 1px 1px rgba(0,0,0,0.1);
+  border:1px #93c762 solid;
+}
+#createaccountlogin {
+    border: 1px solid transparent;
+    font-size: 12px;
+    padding: 3px;
+    border-radius: 3px;
+}
+
+.LoginButton [type="submit"] {
+    position: relative;
+    overflow: visible;
+    display: inline-block;
+    padding: 0.5em 1em;
+    border: 1px solid #D4D4D4;
+    text-decoration: none;
+    text-align: center;
+    text-shadow: 1px 1px 0px #FFF;
+    color: #333;
+    white-space: nowrap;
+    cursor: pointer;
+    outline: medium none;
+    background-color: #ECECEC;
+    background-image: linear-gradient(#F4F4F4, #ECECEC);
+    background-clip: padding-box;
+    border-radius: 0.2em;
+    width: 360px;
+    font-family: "Droid Arabic Kufi","Open Sans",sans-serif;
+    font-size: 12px;
+    margin-top:5px;
+    margin-bottom:10px;
+}
+
+.loginbutt:hover{
+  background-image:-moz-linear-gradient(#34ca58, #84e19c);
+  background-image:-o-linear-gradient(#34ca58, #84e19c);
+  background-image:linear-gradient(#34ca58, #84e19c);
+  border-color:#5db97b;
+  border-bottom-color:#28e254;
+  text-decoration:none;
+  text-shadow:-1px -1px 0 rgba(0,0,0,0.3);
+  color:#fff;
+
+}
+#cclogin {
+    font-size: 11px;
+    color: #BBB;
+}
+.CpUser {
+	background: #333 none repeat scroll 0% 0%;
+        border-color: #000 #444 #444 #000;
+	border-radius: 7px;
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+	border-style: solid;
+	border-width: 1px;
+	min-height: 10px;
+	overflow: hidden;
+	padding: 4px;
+        margin-bottom: 5px;
+}
+.CpUserName {
+	font-size: 11px;
+	font-weight: lighter;
+	color: #fff;
+        margin-top: 5px;
+}
+
+.CpUserName a:link {
+  color: #79D1D0;
+}
+
+.CpUserName a:hover {
+	color: #4795CF;
+}
+.CpUserIm img {
+        border: 3px solid #67CDF2;
+	border-radius: 50%;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+        margin-top: 5px;
+	margin-left: 5px;
+	width: 50px;
+        height: 50px;
+}
+.CpUserInfo {
+	float: right;
+	font-size: 10px;
+	margin-left: 8px;
+}
+.CpUserInfo a {
+	color: #f8c345;
+}
+.CpUserExit a:link {
+	color: #FFAE72;
+}
+
+.CpUserExit a:hover {
+	color: #fff;
+}
+.CpUserExit {
+	float: left;
+	font-size: 10px;
+	font-weight: lighter;
+}
+
+.VbmenuPopupHead {
+    color: #fff;
+    font-family: "Droid Arabic Kufi","Open Sans",sans-serif;
+    font-size: 12px;
+}
+.VbmenuPopupHead a:link {
+color: #fff;
+padding: 0 2px 0px 2px;
+}
+.VbmenuPopupHead a:hover {
+  background: #0080AE;
+  color : #fff;
+
+}
+.VbmenuPopupHead a:visited {
+color: #fff;
+
+}
+.VbmenuOption {
+background: none repeat scroll 0 0 #479f9e;
+font-size: 0.8em;
+font-weight: lighter;
+padding: 5px;
+min-height: 10px;
+overflow: hidden;
+border-radius: 0px;
+-moz-border-radius: 0px;
+-webkit-border-radius: 0px;
+color: #fff;
+font-family: "Droid Arabic Kufi","Open Sans",sans-serif;
+}
+.VbmenuOption a {
+  color: #fff;
+}
+.VbmenuOption a:hover {
+color: #94dad9;
+}
+.VbmenuOptionH {
+background: none repeat scroll 0 0 #3A4249;
+border: 1px solid #4A5560;
+font-size: 12px;
+border-radius: 4px;
+-moz-border-radius: 4px;
+-webkit-border-radius: 4px;
+margin-left: 4px;
+margin-top: 3px;
+padding: 3px;
+}
+.VbmenuOptionH a:link {
+  color: #fff;
+}
+.VbmenuOptionH a:visited {
+  color: #fff;
+}
+.VbmenuOptionH a:hover{
+
+	color: #93C762 !important;
+	transition: 0.3s;
+}
+.VbmenuOption2 {
+  background: none repeat scroll 0 0 #0080AE;
+  font-size: 0.8em;
+  font-weight: lighter;
+  padding: 5px;
+  min-height: 10px;
+  overflow: hidden;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  color: #fff;
+  font-family: "Droid Arabic Kufi","Open Sans",sans-serif;
+}
+
+
+/********* navbar *********/
+.topnavbar {
+    margin-top: 50px;
+}
+.reg {
+    border-radius: 7px;
+    direction: rtl;
+    text-align: right;
+    padding: 20px;
+    font-family: "Droid Arabic Kufi";
+    line-height: 20px;
+    font-size: 14;
+    background: none repeat scroll 0% 0% #fff;
+    border: 1px solid #fdccb3;
+    font-weight: bold;
+    color: #e24703;
+}
+.wel-msg {
+    border-radius: 7px;
+    direction: rtl;
+    text-align: right;
+    padding: 20px;
+    font-family: "Droid Arabic Kufi";
+    line-height: 20px;
+    font-size: 12px;
+    background: none repeat scroll 0% 0% #F2FCE8;
+    border: 1px solid #CFDAC6;
+    color: #621093;
+    font-weight: lighter;
+}
+
+.alt1-navbar {
+	background: #fff;
+	border: 1px solid #e7e7e7;
+
+}
+.alt1-navbar a:link, .alt1-navbar a:visited, .alt1-navbar a:hover {
+	color: #3a6213;
+	text-decoration: none;
+        font-size: 15px;
+        font-weight: bold;
+}
+.alt1-navbar2 {
+	background: #000;
+
+	color: #ff0080;
+	border: 3px solid #fff;
+	box-shadow: 0 1px 5px #999;
+        font: bold 16px droid arabic kufi;
+}
+
+.rotate {
+	color:#3a6213;
+	font-size:15px;
+}
+
+.rotate a {
+	color:#3a6213;
+	font-size:15px;
+
+}
+.navbar {
+    color: #3a6213;
+}
+#NoticPage {
+	background:none repeat scroll 0 0 #FCF1B8;
+	border:1px solid #F8E372;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	font-family:"Droid Arabic Kufi","Open Sans",sans-serif;
+	margin:10px 0;
+	padding:5px;
+	color:#ad542d;
+}
+#NoticPage a:hover {
+	text-decoration:none;
+}
+#NoticPage .NoticHead {
+	font-size:0.9em;
+}
+#NoticPage .NoticCounct {
+	background:none repeat scroll 0 0 #fff;
+	border:1px solid #F9E886;
+	font-size:15px;
+	margin:5px;
+	padding:5px;
+}
+
+/********* forum *********/
+
+.FHLeft {
+    width: 250px;
+    float: left;
+}
+.contentPage {
+    margin-right: 5px;
+    margin-top: 0px;
+    border: 1px solid #E0E0E0;
+    border-radius: 5px;
+    position: relative;
+    width: 240px;
+}
+.blockContent {
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    padding: 10px;
+}
+h6 {
+    padding-right: 30px;
+    position: relative;
+    line-height: 12px;
+}
+.blockContent > h6::before {
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    margin-top: -9px;
+    right: 5px;
+    vertical-align: middle;
+    font-family: 'FontAwesome';
+    font-style: normal;
+    font-weight: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 15px;
+    width: 18px;
+    height: 18px;
+    line-height: 1;
+    content: "\f0fd";
+}
+.blockContent h6::after {
+    content: "";
+    position: absolute;
+    bottom: -3px;
+    left: 0px;
+    width: 10%;
+    height: 3px;
+    background-color: rgb(147, 199, 98);
+}
+.blockContent h6 {
+    font-size: 10px;
+    color: rgb(108, 162, 57);
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    border-bottom: 4px solid rgb(236, 240, 241);
+    font-family: 'Droid Arabic Kufi';
+    width: 190px;
+    margin-top: -2px;
+}
+.banner-left {
+
+    margin-top: 10px;
+    text-align: center;
+
+}
+.STATISTIC {
+	color:#646C74;
+	margin-left:3px;
+	text-shadow:0px -1px 1px #EEE;
+	font-weight:lighter;
+	font-size:0.69em;
+	border-bottom:1px solid #EEE;
+	padding:4px;
+	line-height:20px;
+	font-family:"Droid Arabic Kufi","Open Sans",sans-serif;
+}
+.STATISTIC-TOP {
+	margin-top:5px;
+	border-radius:5px;
+	background:#D9EBEB none repeat scroll 0% 0%;
+	color:#268180;
+	border:1px solid rgb(175,212,211);
+	text-shadow:0px 1px 0px #FFF;
+}
+
+#forumhomeBody {
+    background-color: #FEFEFE;
+    border: 1px solid #E0E0E0;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    margin: 0px;
+    padding: 4px;
+    margin-left: 250px;
+}
+.IconF-H {
+    color: #fff;
+    float: left;
+    font-size: 20px !important;
+    margin-left: 6px;
+    text-shadow: 1px 1px 1px #4e841c;
+    padding-top: 4px;
+}
+.TitleCatForum {
+    display: block;
+}
+
+.TitleCatForum h1 {
+    font-size: 16px;
+    margin: 0;
+    padding: 4px 0;
+    color: #097170;
+}
+.noblock {
+    display: inline;
+}
+
+h1, h2, h3 {
+    color: #097170;
+    font-size: 13px;
+    margin: 0;
+    display: inline;
+}
+
+h4{ 
+    font-size:10pt;
+    position: relative;
+    line-height: 12px;
+}
+
+.forum-desc {
+    font-size: 11px;
+    font-family: "Droid Arabic Kufi","Open Sans",sans-serif;
+    color: #000;
+}
+.subforum-header {
+    font-size: 11px;
+    font-weight: lighter;
+    font-family: "Droid Arabic Kufi","Open Sans",sans-serif;
+}
+.subforum-header a {
+    text-decoration: none;
+    color: #058469;
+}
+.topics-count {
+    background: none repeat scroll 0 0 #fff;
+    border-bottom: 1px solid #dbe2e6;
+    color: #319998;
+    font-size: 13px;
+    font-weight: bold;
+}
+.posts-count {
+    background: none repeat scroll 0 0 #fff;
+    border-bottom: 1px solid #dbe2e6;
+    color: #319998;
+    font-size: 13px;
+    font-weight: bold;
+}
+.badge {
+    font-size: 28px;
+    padding: 5px;
+}
+.badge1 {
+    font-size: 30px;
+    padding: 5px;
+}
+.badge2 {
+    font-size: 30px;
+    padding: 5px;
+}
+.mainicon {
+    background-color: rgb(255, 255, 255);
+}
+h5 {
+    padding-right: 18px;
+    position: relative;
+    line-height: 12px;
+}
+.mainicon h5 {
+    font-size: 1px;
+    color: #058469;
+
+}
+.mainicon > h5::before {
+    position: absolute;
+    margin-top: -10px;
+    right: 2px;
+    vertical-align: middle;
+    font-family: 'FontAwesome';
+    font-style: normal;
+    font-weight: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 23px;
+    line-height: 0;
+    content: "\f0fd";
+}
+.mainicon h5::after {
+    content: "";
+    position: absolute;
+}
+.img-count {
+    background: none repeat scroll 0 0 #fff;
+    border-bottom: 1px solid #dbe2e6;
+    color: #319998;
+    font-size: 13px;
+    font-weight: bold;
+}
+.img-count2 {
+    background: none repeat scroll 0 0 #fff;
+    color: #319998;
+    font-size: 13px;
+    font-weight: bold;
+}
+.imgboarder {
+
+    padding-left: 6px;
+
+}
+.lastpostinfo {
+    background: none repeat scroll 0 0 #fff;
+    border-bottom: 1px solid #dbe2e6;
+    color: #319998;
+    font-size: 13px;
+    font-weight: bold;
+}
+.lastpost-hide {
+    display: none;
+}
+line {
+    display: none;
+}
+.h-hide {
+    display: none;
+}
+.ReplyUserImg {
+    background-color: #FFF;
+    border: 1px solid #B3D892;
+    float: right;
+    text-align: center;
+    padding: 2px;
+    height: 40px;
+    width: 40px;
+    border-radius: 3px;
+    
+}
+.ThreadReply {
+    background-color: #EAFBDA;
+    border-radius: 3px;
+    font-size: 11px;
+    font-weight: lighter;
+    line-height: 23px !important;
+    padding: 2px 5px;
+    width: 200px;
+}
+.ReplyUserImg2 {
+    background-color: #FFF;
+    border: 1px solid #B3D892;
+    float: right;
+    text-align: center;
+    padding: 2px;
+    height: 30px;
+    width: 30px;
+    border-radius: 3px;
+    margin-top: 5px;
+    margin-right: 5px;
+    
+}
+.Triangle {
+    width: 0px;
+    height: 0px;
+    border-style: solid solid solid none;
+    border-width: 7px;
+    border-top: 7px solid transparent;
+    border-bottom: 7px solid transparent;
+    border-right: 7px solid #B3D892;
+    float: right;
+    margin-top: 5px;
+    margin-left: 6px;
+}
+.InfoFormhome {
+	font-size:0.7em;
+	font-weight:lighter;
+	margin-right:60px;
+font-family: "Droid Arabic Kufi","Open Sans",sans-serif;
+color: #000;
+}
+.NewsReply {
+	float:right;
+	font-size:11px;
+        min-width: 250px;
+        text-align: right;
+}
+.NewsUser {
+	float:right;
+	font-size:11px;
+	color: #0186cc;
+}
+.NewsTime {
+	float:right;
+	font-size:11px;
+        margin-right: 5px;
+}
+
+.IconNewsTime {
+
+	color: #0186cc;
+}
+.forumhomestat {
+    background-color: #D5E9C0;
+    color: #557E2C;
+    border: 1px solid #BADC98;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    padding: 8px;
+    margin: 0px;
+    font-family: "Droid Arabic Kufi", Tahoma, Calibri, Verdana, Geneva, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    margin-left: 250px;
+}
+
+.forumhomestatboxuno {
+    background-color: #FEFEFE;
+    color: #6A6A6A;
+    border: 1px solid #BADC98;
+    border-bottom: 1px dotted #BADC98;
+    border-radius: 3px 3px 0px 0px;
+    -webkit-border-radius: 3px 3px 0px 0px;
+    -moz-border-radius: 3px 3px 0px 0px;
+    padding: 8px;
+    margin: 5px 0px 0px 0px;
+    font-family: "Droid Arabic Kufi", Tahoma, Calibri, Verdana, Geneva, sans-serif;
+    font-size: 11px;
+    font-weight: lighter;
+}
+.states {
+    background: none repeat scroll 0% 0% #FFF;
+    font-family: "Droid Arabic Kufi";
+    font-size: 12px;
+    padding: 8px;
+    margin: 0px 0px 0px 0px;
+    border-right: 1px solid #BADC98;
+    border-left: 1px solid #BADC98;
+    border-bottom: 1px dotted #BADC98;
+}
+.forumhomestatboxtres {
+    background-color: #FEFEFE;
+    color: #6A6A6A;
+    border: 1px solid #BADC98;
+    border-top: 0px;
+    border-radius: 0px 0px 3px 3px;
+    -webkit-border-radius: 0px 0px 3px 3px;
+    -moz-border-radius: 0px 0px 3px 3px;
+    padding: 8px;
+    margin: 0px 0px 0px 0px;
+    font-family: "Droid Arabic Kufi", Tahoma, Calibri, Verdana, Geneva, sans-serif;
+    font-size: 11px;
+    font-weight: lighter;
+}
+.newestmember {
+    float: left;
+}
+.subforumbar {
+  background: none repeat scroll 0% 0% #d5e9c0;
+  border: 1px solid #BADC98;
+  color: #3A6213;
+  font-family: "Droid Arabic Kufi","Open Sans",sans-serif;
+  font-size: 0.95em;
+  margin: 10px 7px 5px 95px;
+  padding: 2px 10px;
+  text-shadow: 0px 1px 0px #F1F7F7;
+}
+.SearchSubforum {
+  background: none repeat scroll 0 0 #FCF1B8;
+  border: 1px solid #F8E372;
+  float: left;
+  font-family: "Droid Arabic Kufi","Open Sans",sans-serif;
+  font-size: 13px;
+  font-weight: lighter;
+  padding: 3px;
+  text-align: center;
+  width: 75px;
+  transition: all 0.4s ease-in-out 0s;
+  margin: -39px 0px 5px 0px;
+  height: 28px;;
+}
+.SearchSubforum a:hover {
+   color:#c1670f !important;
+   text-decoration:none;
+}
+.SearchSubforum a {
+  color: #AD542D!important;
+  font-weight: bold;
+  line-height: 29px;
+}
+.SearchSubforum img{
+	display:none;
+}
+.SearchSubforum:hover {
+	background:none repeat scroll 0 0 #fcefbd;
+	color: rgb(217, 107, 147) !important;
+	border: solid 1px #E3D49F;
+}
+.Forumsubs{
+    background: none repeat scroll 0 0 #fff;
+    border: 5px solid #d5e9c0;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    margin: 15px 5px;
+    padding: 5px;
+}
+.IconThread {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 0px;
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 0px;
+  color: #000;
+  float: right;
+  font-family: "Droid Arabic Kufi","Open Sans",sans-serif;
+  font-size: 0.9em;
+  font-weight: normal;
+  margin: 5px;
+  padding: 2px 5px;
+  width: auto;
+  height: 30px;
+  transition: all 0.4s ease-in-out 0s;
+  width: 123px;
+  box-shadow: inset 0px -2px 0px rgba(0,0,0,0.3);
+}
+.IconThread a {
+  color: #000;
+  text-decoration: none;
+  font-size:15px;
+  padding:1px;
+}
+.IconThread:hover {
+  background: none repeat scroll 0 0 #e6e6e6;
+  border: 1px solid #adadad;
+  color: #333;
+  text-shadow: 1px 1px 1px #fff;
+}
+.IconControlsColor {
+  background: none repeat scroll 0 0 #0080AE;
+  border: 1px solid #0177A2;
+  color: #fff !important;
+  text-shadow: 0 1px 0 #000;
+  width: 130px;
+  text-align:center;
+}
+.IconControlsColor:hover {
+  background: none repeat scroll 0 0 #0194C9;
+  border: 1px solid #0082B1;
+}
+.IconControlsColor a {
+	font-size:15px;
+  color: #fff !important;
+  text-shadow: 0 1px 0 #000 !important;
+}
+.IconControlsColor2 {
+  background: none repeat scroll 0 0 #17A5A9;
+  border: 1px solid #149DA1;
+  text-align: center;
+  text-shadow: 0 1px 0 #000 !important;
+  width: 40px;
+}
+.IconControlsColor2:hover {
+  background: none repeat scroll 0 0 #40B4B0;
+  border: 1px solid #369A96;
+}
+
+.page-nav {
+    float: left;
+}
+
+.page-nav ul {
+    padding: 0px;
+    margin: 0px;
+}
+
+.page-nav li {
+    display: inline-block;
+    color: #557E2C;
+    padding: 0px;
+    margin: 0px 2px;
+    font-family: "Droid Arabic Kufi", Tahoma, Calibri, Verdana, Geneva, sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.page-nav li a {
+    display: block;
+    background-color: #EAF4DF;
+    color: #557E2C !important;
+    padding: 0px 1px;
+    border: 1px solid #BADC98;
+    box-shadow: inset 0px -2px 0px rgba(0,0,0,0.3);
+    text-align: center;
+    min-width: 19px;
+    line-height: 16px;
+}
+
+.page-nav li a:hover{
+    display: block;
+    background-color: #C0DEA0;
+    color: #557E2C;
+    padding: 0px 1px;
+    border: 1px solid #A5D178;
+    box-shadow: inset 0px -2px 0px rgba(0,0,0,0.3);
+    text-align: center;
+    min-width: 19px;
+    line-height: 16px;
+}
+
+.page-nav li a span{
+    line-height: 16px;
+}
+
+.page-nav li strong {
+    display: block;
+    color: #2B485C;
+    background-color: #F0F7FC;
+    padding: 0px 1px;
+    border: 1px solid #6CB2E4;
+      box-shadow: inset 0px -2px 0px rgba(0,0,0,0.3);
+    text-align: center;
+    min-width: 19px;
+    line-height: 16px;
+}
+.Tborderforum {
+    background: #fbfbfb;
+    border: 1px solid #dbe2e6;
+    font-family: "Droid Arabic Kufi","Open Sans",sans-serif;
+    font-size: 0.75em;
+    overflow: hidden;
+    padding: 4px;
+}
+#tags {
+    text-align: right;
+}
+
+#ConPosToolbar {
+	background:none repeat scroll 0 0 #e1edcd;
+        border: 1px solid #B6D781;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	font-family:"Droid Arabic Kufi","Open Sans",sans-serif;
+	font-size:0.88em;
+	font-weight:lighter;
+	padding:8px 10px 0 0;
+	text-shadow:0 1px 0 #fff;
+	margin:0 0 15px 0;
+	height:auto;
+	min-height:44px;
+}
+#ConPosToolbar .Right {
+	background:none repeat scroll 0 0 #fff;
+	    border: 1px solid #ccc;
+        box-shadow: inset 0px -2px 0px rgba(0,0,0,0.3);
+	float:right;
+	padding:1px 5px;
+	border-radius:0px;
+	-moz-border-radius:0px;
+	-webkit-border-radius:0px;
+	height:30px;
+	width:100px;
+	text-align:center;
+}
+#ConPosToolbar .Right:hover {
+	background:none repeat scroll 0 0 #fdfdfd;
+}
+#ConPosToolbar .Right a:hover {
+	text-decoration:none;
+}
+#ConPosToolbar .Right a {
+	color:#058469;
+}
+#ConPosToolbar .Left {
+	float:left;
+}
+#ConPosToolbar .Left .IconToolSize {
+	font-size:21px;
+	color:#058469;
+	position:relative;
+	top:3px;
+}
+#ConPosToolbar .Left .ToolbarMain {
+        padding: 5px;
+}
+#ConPosToolbar .Left .ToolbarMain ul {
+	float:right;
+	margin:0;
+	padding:0;
+}
+#ConPosToolbar .Left .ToolbarMain li {
+	display:inline;
+	margin-left:5px;
+	background:#fff;
+	border:1px solid #ccc;
+	padding:0 6px 1px 2px;
+	border-radius:0px;
+        box-shadow: inset 0px -2px 0px rgba(0,0,0,0.3);
+}
+#ConPosToolbar .Left .ToolbarMain img {
+	display:none;
+}
+
+
+.ButtonDown {
+	background:none repeat scroll 0 0 #fcfcfc;
+	border:1px solid #ccc;
+	-webkit-border-radius:0px;
+	-moz-border-radius:0px;
+	border-radius:0px;
+	float:right;
+	padding:5px;
+	text-align:center;
+	width:110px;
+	font-size:14px;
+	-moz-box-shadow:0 0 3px #d7d7d7;
+	-webkit-box-shadow:0 0 3px #d7d7d7;
+	box-shadow:0 0 3px #d7d7d7;
+}
+.ButtonDown:hover {
+	background:#eaeaea;
+	color:#727272;
+	text-shadow:0 1px 0 #fff;
+}
+.IconDown {
+	font-size:21px !important;
+	margin-left:5px;
+}
+.PostUserName {
+    font-family: "Droid Arabic Kufi","Open Sans",sans-serif;
+    font-size: 13px;
+    font-weight: lighter;
+    line-height: 7px;
+    margin-right: 55px;
+    margin-top: 5px;
+}
+.ForumInfo {
+    background: none repeat scroll 0px 0px #FFD6CE;
+     border: 1px solid #fbc9b5;
+    color: #A53F13;
+    font-family: "Droid Arabic Kufi","Open Sans",sans-serif;
+    font-size: 1.2em;
+    font-weight: lighter;
+    margin: 5px 0px 10px;
+    padding: 5px;
+    text-shadow: 0px 1px 0px #FFEEE7;
+}
+
+.ForumInfo:hover {
+	 background:none repeat scroll 0 0 #fbc9b5;
+}
+
+.ForumInfo a {
+	 color:#ae3f0e;
+}
+
+.ForumInfo a:hover {
+	 background:none repeat scroll 0 0 #ffcdb7;
+	 border-radius:3px;
+	 -moz-border-radius:3px;
+	 -webkit-border-radius:3px;
+	 text-decoration:none;
+}
+.smallfontInfo {
+    font-size: 13px;
+    font-family: "Droid Arabic Kufi","Open Sans",sans-serif;
+    color: #000;
+}
+.ToolsThread {
+    float: right;
+    font-family: "Droid Arabic Kufi","Open Sans",sans-serif !important;
+    font-weight: bold;
+    margin-left: 5px;
+    margin-right: 7px;
+    line-height: 23px;
+    margin-top: -1px !important;
+    margin-bottom: -3px;
+    color: #FF0000;
+}
+.ThreadTitle {
+    line-height: 25px;
+}
+.ThreadTitle h1 {
+    font-family: arial,Helvetica,sans-serif;
+    margin-top: 0;
+}
+.ipsBadge {
+    display: inline-block;
+    min-height: 20px;
+    line-height: 18px;
+    padding: 0 5px;
+    font-size: 9px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    vertical-align: middle;
+    margin: 1px 0px 0 2px;
+   font-family: "Droid Arabic Kufi","Open Sans",sans-serif;
+}
+
+/********* post *********/
+.PosBlockLeft {
+    display: block;
+}
+.PosLeft {
+    float: left;
+    width: 160px;
+    background: #fff;
+    border-top: 1px solid #93C762;
+    border-bottom: 1px solid #93C762;
+    border-left: 1px solid #E8E8E8;
+    border-right: 1px solid #E8E8E8;
+    padding: 5px;
+
+}
+.Posinffrist {
+   background: #93c762;
+   font-family: 'Droid Arabic Kufi';
+   color: #fff;
+   font-size: 10px;
+   padding: 2px 5px;
+   border-radius: 2px;
+   text-align: center;
+}
+.TmpPost .page {
+	margin: 0px;
+	padding:0;
+}
+.TmpPost {
+    border: 1px solid #93C762;
+    margin: 0px;
+    padding: 0;
+    margin-left: 180px;
+    border-color: #93c762 #dedede #93c762 #dedede;
+    border-style: solid;
+    border-width: 1px;
+}
+.TmpPost .HeaderPost {
+	background:none repeat scroll 0 0 #fff;
+        margin: 0px;
+	overflow:hidden;
+	padding:10px 10px 5px 2px;
+
+	
+}
+.TmpPost .HeaderPost .Right {
+	background:none repeat scroll 0 0 #fff;
+	border:1px solid #e7e7e7;
+	border-radius:4px;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	float:right;
+	min-height:10px;
+	overflow:hidden;
+	padding:4px;
+}
+.TmpPost .HeaderPost .Right img {
+	-webkit-transition-duration:1s;
+	-o-transition-duration:1s;
+	-moz-transition-duration:1s;
+	transition-duration:1s;
+}
+
+.TmpPost .HeaderPost .Right img:hover {
+	-webkit-transform:scale(1.2);
+	-ms-transform:scale(1.2);
+	-moz-transform:scale(1.2);
+	-o-transform:scale(1.2);
+	transform:scale(1.2);
+}
+.TmpPost .HeaderPost .Center {
+	float:right;
+	margin-right:15px;
+	padding:0 10px;
+}
+.TmpPost .HeaderPost .Center .UserName {
+	text-align:center;
+}
+.TmpPost .HeaderPost .Center .UserTitleName {
+	color:#209caf;
+	font-family:"Droid Arabic Kufi","Open Sans",sans-serif;
+	font-size:0.69em ;
+	font-weight:lighter;
+	margin-top: -8px;
+}
+.TmpPost .HeaderPost .Center .UserInfo {
+	font-family:"Droid Arabic Kufi","Open Sans",sans-serif;
+	font-size:0.65em;
+	font-weight:lighter;
+	line-height:16px;
+}
+.TmpPost .HeaderPost .Center .Internal {
+	font-size:22px;
+}
+.TmpPost .HeaderPost .Center .Internal ul {
+	margin:0;
+	padding:0;
+}
+.TmpPost .HeaderPost .Center .Internal li {
+	display:inline;
+	padding-left:5px;
+}
+.TmpPost .HeaderPost .Center .Internal .Offline {
+	color:#708190 ;
+}
+.TmpPost .HeaderPost .Center .Internal .Online {
+	color:#45b63c ;
+}
+.TmpPost .HeaderPost .Center .Internal .Invisible {
+	color:#d9615e ;
+}
+.TmpPost .HeaderPost .Continue {
+    float: right;
+    width: auto;
+
+}
+.TmpPost .HeaderPost .Continue .Social {
+	float:none;
+}
+.TmpPost .HeaderPost .Continue .Social ul {
+	margin:0;
+	padding:0;
+	text-align:center;
+}
+.TmpPost .HeaderPost .Continue .Social li {
+	display:inline;
+	font-size:21px;
+}
+.TmpPost .HeaderPost .Continue .Social li a {
+	color:#278991;
+}
+.TmpPost .HeaderPost .Continue .Social .Home {
+	color:#58c5c4;
+}
+.TmpPost .HeaderPost .Continue .Social .Instagram {
+	color:#a6561b;
+}
+.TmpPost .HeaderPost .Continue .Social .Google {
+	color:#73a61b;
+}
+.TmpPost .HeaderPost .Continue .Social .YouTube {
+	color:#e15344;
+}
+.TmpPost .HeaderPost .Continue .Social .Flickr {
+	color:#868686;
+}
+.TmpPost .HeaderPost .Continue .Social .Facebook {
+	color:#2183b0;
+}
+.TmpPost .HeaderPost .Continue .Social .Twitter {
+	color:#32c2e6;
+}
+.TmpPost .HeaderPost .CommUserInfo {
+    color: #565656;
+    font-family: "Droid Arabic Kufi","Open Sans",sans-serif;
+    font-size: 0.6em;
+    font-weight: lighter;
+    border: 1px solid #dedede;
+    border-radius: 5px;
+    padding: 10px;
+    width: 500px;
+    float: left;
+    margin-left: 8px;
+    background: #F3F3F3;
+}
+.TmpPost .TimePostCount {
+    font-family: "Droid Arabic Kufi","Open Sans",sans-serif;
+    color: #4a7d1b;
+    margin-bottom: 20px;
+	font-size: 11px;
+    font-weight: lighter;
+}
+.TmpPost .TimePostCount .PostTime {
+	float:right;
+	margin-left:15px;
+	margin-top:3px;
+	border: 1px solid #CECACA;
+	border-radius: 5px;
+	padding: 3px;
+	background: #FFF;
+}
+.TmpPost .TimePostCount .PostCount {
+	float:left;
+	margin-left:10px;
+	margin-top:3px;
+	border: 1px solid #CECACA;
+	border-radius: 5px;
+	padding: 3px;
+	background: #FFF;
+}
+.TmpPost .TimePostCount .InlineMod {
+	float:left;
+}
+.TmpPost .ContentPost {
+	padding: 5px 0;
+	background: #fff;
+}
+.TmpPost .ContentPost .IconTitle {
+	background:none repeat scroll 0 0 #eaf4df;
+	border-top:1px solid #93c762;
+	color:#336001;
+	font-family:"Droid Arabic Kufi","Open Sans",sans-serif;
+	font-size:14px;
+	padding:5px 20px;
+	text-shadow:0 1px 0 #f1f7f7;
+
+}
+.TraiMessage {
+	border-color:#eaf4df transparent transparent;
+	border-style:solid;
+	border-width:15px 10px 0;
+	height:0;
+	margin-right:30px;
+	width:0;
+}
+.TmpPost .ContentPost .Message {
+	margin:15px;
+        min-height: 80px;
+        font-family: "Droid Arabic Kufi","Open Sans",sans-serif;
+        font-weight: lighter;
+}
+.TmpPost .ContentPost .Message a:hover {
+	text-decoration:none;
+	box-shadow:0 3px 3px #ccc;
+	background:#fff2c5;
+	color:#be650f;
+}
+.TmpPost .ContentPost .Message a {
+	color:#00bebc;
+	border-radius:4px;
+	-webkit-border-radius:4px;
+	-moz-border-radius:4px;
+	padding:1px 4px;
+}
+.TmpPost .ContentPost .Message img {
+	max-width:100%;
+}
+
+.TmpPost .HeaderPost .ActivityUser {
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	background:none repeat scroll 0 0 #fdfdfd !important;
+	border:1px solid #d0d0d0;
+	color:#333 !important;
+	float:left;
+	font-family:"Droid Arabic Kufi","Open Sans",sans-serif;
+	font-size:0.7em;
+	font-weight:lighter;
+	padding:0 5px;
+	width:270px;
+}
+.TmpPost .ContentPost .Signature {
+	background:none repeat scroll 0 0 #D5E9C0;
+	font-family:"Droid Arabic Kufi","Open Sans",sans-serif;
+	font-size:13px;
+	font-weight:lighter;
+	margin:25px -15px;
+	padding:5px 20px;
+	text-shadow:0 1px 1px #fff;
+	border-top:1px solid #BADC98;
+	border-bottom:1px solid #BADC98;
+}
+.TmpPost .ContentPost .Signature a {
+	color:#557E2C;
+}
+.TmpPost .ContentPost .Signature a:hover {
+	background:#557E2C;
+	color:white;
+	text-shadow:0 1px 0 #000;
+}
+.TmpPost .ContentPost .EditNote {
+	font-family:"Droid Arabic Kufi","Open Sans",sans-serif;
+	font-size:11px;
+	font-weight:lighter;
+	margin-top:10px;
+	margin-bottom: 5px;
+	border-radius:3px;
+	padding:2px 5px;
+}
+.TmpPost .ContentPost .EditNote a {
+	color:#e05407;
+	text-decoration:none;
+}
+.TmpPost .FooterPost {
+}
+.TmpPost .FooterPost .Controls {
+
+        padding: 10px;
+        text-align: left;
+}
+.TmpPost .FooterPost .Controls ul {
+	margin:0;
+	padding:0 2px;
+}
+.TmpPost .FooterPost .Controls li {
+	background:none repeat scroll 0 0 #fff;
+	border:1px solid #c0c0c0;
+	display:inline;
+	font-family:"Droid Arabic Kufi","Open Sans",sans-serif;
+        box-shadow: inset 0px -2px 0px rgba(0,0,0,0.3);
+	font-size:0.7em;
+	font-weight:lighter;
+	padding:5px;
+}
+.TmpPost .FooterPost .Controls li a {
+	text-decoration:none;
+}
+.TmpPost .FooterPost .Controls li a:hover {
+	text-decoration:none;
+}
+.TmpPost .FooterPost .Controls .IconControlsFont {
+	font-size:14px;
+	margin-left:3px;
+}
+.SocilContact {
+
+  cursor: pointer;
+
+}
+.HideTimeCount {
+    display: none;
+}
+.TmpComments {
+	background: none repeat scroll 0 0 rgb(245, 245, 245);
+        border: 1px solid #e8e8e8;
+	border-radius:5px;
+	margin:0;
+	padding:10px;
+	width:auto;
+	overflow:hidden;
+}
+.TmpComments .TimePostComm {
+	background: none repeat scroll 0 0 #fff;
+        border: 1px solid rgb(222, 222, 222);
+        border-radius: 3px;;
+	float:none;
+	margin: -2px 0px 8px;
+	overflow:hidden;
+	padding:5px 5px 2px 2px;
+}
+.TmpComments .TimePostComm .PostCount {
+	float:left;
+	font-family:"Droid Arabic Kufi","Open Sans",sans-serif;
+	font-size:11px;
+	font-weight:lighter;
+	margin-left:10px;
+}
+.TmpComments .TimePostComm .InlineMod {
+	float:left;
+	margin-top:5px;
+}
+.TmpComments .TimePostComm .CommTime {
+	color:#217a85;
+	float:right;
+	font-family:"Droid Arabic Kufi","Open Sans",sans-serif;
+	font-size:11px;
+	font-weight:lighter;
+}
+.TmpComments .RightPost {
+	background-color: #fff;
+        border: 1px solid rgb(222, 222, 222);
+	border-radius:3px;
+	float:right;
+	padding:8px;
+	width:165px;
+}
+.TmpComments .RightPost .Social {
+	float:none;
+}
+.TmpComments .RightPost .Social ul {
+	margin:0;
+	padding:0;
+	text-align:center;
+}
+.TmpComments .RightPost .Social li {
+	display:inline;
+	font-size:21px;
+}
+.TmpComments .RightPost .Social li a {
+	color:#278991;
+}
+.TmpComments .RightPost .Continue .Social .Home {
+	color:#58c5c4;
+}
+.TmpComments .RightPost .Continue .Social .Instagram {
+	color:#a6561b;
+}
+.TmpComments .RightPost .Continue .Social .Google {
+	color:#73a61b;
+}
+.TmpComments .RightPost .Continue .Social .YouTube {
+	color:#e15344;
+}
+.TmpComments .RightPost .Continue .Social .Flickr {
+	color:#868686;
+}
+.TmpComments .RightPost .Continue .Social .Facebook {
+	color:#2183b0;
+}
+.TmpComments .RightPost .Continue .Social .Twitter {
+	color:#32c2e6;
+}
+.TmpComments .RightPost .Internal .Offline {
+	color:#708190;
+}
+.TmpComments .RightPost .Internal .Online {
+	color:#45b63c;
+}
+.TmpComments .RightPost .Internal .Invisible {
+	color:#d9615e;
+}
+.TmpComments .RightPost .Internal ul {
+	margin:0;
+	padding:0;
+	text-align:center;
+}
+.TmpComments .RightPost .Internal {
+	float:none;
+}
+.TmpComments .RightPost .Internal li {
+	display:inline;
+	font-size:21px;
+}
+.TmpComments .RightPost .CommName {
+	float:none;
+	text-align:center;
+}
+.TmpComments .RightPost .CommName .CommUserName {
+	font-family:"Droid Arabic Kufi","Open Sans",sans-serif;
+	font-size:0.8em;
+}
+.TmpComments .RightPost .CommName .CommTitleName {
+	border-radius:4px;
+	color: #75a440;
+	font-family:"Droid Arabic Kufi","Open Sans",sans-serif;
+	 font-size:0.656em;
+	font-weight:lighter;
+	margin-bottom:5px;
+	padding-bottom:6px;
+	padding-top:6px;
+        line-height: 16px;
+}
+.TmpComments .RightPost .CommUserImg img2 {
+	height:auto;
+	width:85%;
+}
+.TmpComments .RightPost .CommUserImg {
+	background-color:#fff;
+	border-radius:5px;
+	padding:8px 0;
+	text-align:center;
+}
+.TmpComments .RightPost .CommUserInfo {
+	color:#565656;
+	font-family:"Droid Arabic Kufi","Open Sans",sans-serif;
+	font-size:0.6em;
+	font-weight:lighter;
+	margin-bottom:5px;
+	padding:0 3px;
+}
+.TmpComments .RightPost .CommUserInfo span {
+	color: #565656;
+font-size: 13px;
+}
+
+
+.TmpComments .Triangle {
+	float:right;
+	height:0;
+	margin-top:5px;
+	width:0;
+        border: 10px solid transparent;
+border-right-color: rgb(252, 252, 255);
+-moz-border-right-colors: rgb(255, 255, 255);
+margin-right: -1px;
+margin-top: 10px;
+}
+.TmpComments .LeftPost {
+	margin-right:195px;
+}
+.LeftPost .CommReport a {
+	color:#ed836b;
+}
+.LeftPost .CommReport {
+	float:left;
+	font-size:24px;
+	margin-top:0px;
+}
+.TmpComments .LeftPost .CommMessage {
+    font-family: "Droid Arabic Kufi","Open Sans",sans-serif;
+    font-weight: lighter;
+    padding: 10px;
+    background: #fff;
+    border: 1px solid #DEDEDE;
+    border-radius: 5px;
+
+}
+.TmpComments .LeftPost .CommMessage img {
+	max-width:100%;
+}
+.TmpComments .LeftPost .EditNote {
+	font-family:"Droid Arabic Kufi","Open Sans",sans-serif;
+	font-size:11px;
+	font-weight:lighter;
+	margin-top:10px;
+	border-radius:3px;
+	padding:2px 5px;
+}
+.TmpComments .LeftPost .EditNote a {
+	color:#e05407;
+	text-decoration:none;
+}
+.TmpComments .LeftPost .FooterPost {
+	float:none;
+	margin-top:10px;
+}
+.TmpComments .LeftPost .FooterPost .Controls {
+	float:none;
+}
+.TmpComments .LeftPost .FooterPost .Controls ul {
+	margin:0;
+	padding:0 2px;
+}
+.TmpComments .LeftPost .FooterPost .Controls li {
+	background:none repeat scroll 0 0 #fff;
+	border:1px solid #c0c0c0;
+	display:inline;
+	font-family:"Droid Arabic Kufi","Open Sans",sans-serif;
+        box-shadow: inset 0px -2px 0px rgba(0,0,0,0.3);
+	font-size:0.7em;
+	font-weight:lighter;
+	padding:5px;
+}
+.TmpComments .LeftPost .FooterPost .Controls li a {
+	text-decoration:none;
+}
+.TmpComments .LeftPost .FooterPost .Controls li a:hover {
+	text-decoration:none;
+}
+.TmpComments .LeftPost .FooterPost .Controls .IconControlsFont {
+	font-size:14px;
+	margin-left:3px;
+}
+.TmpComments .LeftPost .CommTitle {
+	background:none repeat scroll 0 0 #f3f3f3;
+	border-bottom:1px solid #ddd;
+	border-radius:0;
+	color:#363636;
+	font-family:"Droid Arabic Kufi","Open Sans",sans-serif;
+	font-size:0.85em;
+	font-weight:lighter;
+	margin-bottom:10px;
+	padding:3px 5px;
+	text-shadow:0 1px 0 #fff;
+}
+.TmpComments .LeftPost .CommMessage .Signature li {
+}
+.TmpComments .LeftPost .CommMessage .Signature ul {
+	margin:0 19px 0 0;
+	padding:0;
+}
+.TmpComments .LeftPost .CommMessage .Signature {
+	background: none repeat scroll 0 0 #eaf4df;
+        border: 1px solid #d5e9c0;
+	border-radius:3px;
+	font-family:"Droid Arabic Kufi","Open Sans",sans-serif;
+	font-size:13px;
+	font-weight:lighter;
+	margin-top:10px;
+	padding:5px;
+}
+.TmpComments .LeftPost .CommMessage .Signature a {
+	color:#557E2C;
+	padding:0 1px;
+}
+.TmpComments .LeftPost .CommMessage .Signature a:hover {
+	background:none repeat scroll 0 0 #557E2C;
+	border-radius:3px;
+	box-shadow:0 3px 3px #ccc;
+	color:white;
+	padding:0 1px;
+	text-decoration:none;
+	text-shadow:0 1px 0 #000;
+}
+.TmpComments .LeftPost .CommMessage a {
+	color:#287ca4;
+	padding:1px 3px;
+}
+.TmpComments .LeftPost .CommMessage a:hover {
+	background:none repeat scroll 0 0 #fff2c5;
+	box-shadow:0 3px 3px #ccc;
+	color:#c16f0e;
+	border-radius:3px;
+	text-decoration:none;
+}
+.TmpComments .LeftPost .CommMessage .bbcode_quote_main a {
+	border-radius:4px;
+	padding:0 2px;
+}
+.TmpComments .LeftPost .CommMessage .bbcode_quote_main a:hover {
+	box-shadow:0 3px 3px #ccc;
+	text-decoration:none;
+}
+
+.ShareScreen {
+    background: none repeat scroll 0px 0px #FFF;
+    border: 1px solid #E8E8E8;
+    border-radius: 5px;
+    font-family: "Droid Arabic Kufi","Open Sans",sans-serif;
+    font-size: 0.75em;
+    font-weight: lighter;
+    padding: 8px;
+    margin-top: 10px;
+    overflow: hidden;
+    min-height: 10px;
+}
+.ShareScreen .IconShare {
+    float: right;
+    font-size: 36px;
+    width: 50px;
+    height: 46px;
+    margin-left: 10px;
+    border-radius: 5px;
+    background: none repeat scroll 0% 0% #5E7081;
+    color: #FFF;
+    text-align: center;
+    padding-top: 9px;
+}
+.ShareScreen .ShareList {
+    float: right;
+    margin-left: 10px;
+}
+.TagScreen {
+   	background:none repeat scroll 0 0 #fff;
+	border:1px solid #e8e8e8;
+ 	border-radius:5px;
+	 -moz-border-radius:5px;
+	 -webkit-border-radius:5px;
+	 font-family:"Droid Arabic Kufi","Open Sans",sans-serif;
+	font-size:0.75em;
+ 	font-weight:lighter;
+	padding:8px;
+	 margin-top:10px;
+	 overflow:hidden;
+	min-height:10px;
+}
+.TagScreen .IconTag {
+	float:right;
+	font-size:32px;
+	 width:50px;
+	 height:40px;
+	 margin-left:10px;
+	 border-radius:5px;
+	 -moz-border-radius:5px;
+	 -webkit-border-radius:5px;
+	 background:#85af59;
+	 color:#fff;
+	 text-align:center;
+	 padding-top:9px;
+}
+.TagScreen .TagRight {
+        float: left;
+}
+.TagScreen .TagList {
+	 float:nano;
+	 margin-left:10px;
+}
+.TagScreen .TagListCell {
+ 	background:#fff;
+        overflow:hidden;
+	 padding:2px 7px;
+	 border-radius:2px;
+	-moz-border-radius:2px;
+	-webkit-border-radius:2px;
+        color: #058469;
+}
+.TagScreen .TagListCell a {
+ 	color:#213e03;
+}
+.TagScreen .TagListCell a:hover {
+ 	color:#f00;
+}
+.tag {
+    background: #d5e9c0;
+    border-radius: 3px 0 0 3px;
+    color: #FFF;
+    display: inline-block;
+    height: 20px;
+    line-height: 20px;
+    padding: 0 15px 0px 23px;
+    position: relative;
+    margin: 0;
+    text-decoration: none;
+    transition: color 0.2s;
+    border-radius: 7px;
+}
+.tag::before {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: inset 0 1px rgba(0, 0, 0, 0.25);
+    content: '';
+    height: 6px;
+    left: 10px;
+    position: absolute;
+    width: 6px;
+    top: 7px;
+}
+.tag::after {
+    background: #fff;
+    border-bottom: 10px solid transparent;
+    border-right: 10px solid #d5e9c0;
+    border-top: 10px solid transparent;
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.Rating {
+       
+       margin-bottom: 10px;
+}
+.Rating ul {
+	margin:0;
+	 padding:0;
+}.Rating li {
+ 	display: inline;
+        line-height: 10px;
+        margin-left: 10px;
+        font-family: "Droid Arabic Kufi","Open Sans",sans-serif;
+        font-size: 10px;
+        color: #249998;
+}
+.Rating .Reputation {
+	color:#45b5b4 !important;
+	font-size:17px;
+        margin-right: 15px;
+}
+.Ejabatk {
+	background:#fff;
+	color:#DE8611;
+	padding:1px 2px;
+	border-radius:5px;
+	text-shadow:none;
+	font-family:"Droid Arabic Kufi","Open Sans",sans-serif;
+	font-size:0.70em;
+        text-align: center;
+}
+
+/********* showr-quickreply *********/
+#vB_Editor_QR_iframe { 
+      border: 1px #C1D9F2 solid !important;  
+}
+.imagebutton { 
+      padding:5px !important;
+      font: 12pt tahoma !important;
+}
+.msgReply {
+    margin: 10px auto 5px;
+    background: none repeat scroll 0px 0px #85af59;
+    border-radius: 2px;
+    color: #FFF;
+    font-family: "Droid Arabic Kufi","Open Sans",sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 16px;
+    padding-bottom: 6px;
+    width: 61.5%;
+    padding-top: 6px;
+    text-align: center;
+}
+
+.Tr09QuickReply {
+    background-color: #d5e9c0;
+    border: 1px solid #BADC98;
+    border-radius: 6px;
+    font: 12px Droid Arabic Kufi,tahoma;
+    margin: 10px auto;
+    overflow: hidden;
+    padding: 9px;
+    width: 60%;
+    color: #3A6213;
+
+}
+.notificationcounter {
+    padding: 1px 5px;
+    color: #FFF;
+    background-color: #E87E04;
+    font-family: Tahoma;
+    font-size: 9px;
+    font-weight: 700;
+    border-radius: 15px;
+}
+
+.BbCodeIcon {
+	cursor:pointer;
+}
+.BbCodeIcon2 {
+	cursor:pointer;
+}
+.BbCodeIcon3 {
+	cursor:pointer;
+}
+
+/********* quote *********/
+
+.bbcode_quote_main {
+	 background:none repeat-x scroll 0 0 #fff5d3;
+	 border:1px solid #f1d8ac;
+	 border-radius:5px;
+	 box-shadow:0 0 3px #eee;
+	 margin-bottom:10px;
+	 margin-top:10px;
+	 overflow:hidden;
+	 padding:1px;
+}
+
+.bbcode_quote_byx {
+	padding:7px;
+	margin:4px 2px 2px 2px;
+	font-family:tahoma;
+	font-size:11px;
+	font-weight:lighter;
+	-moz-border-radius:5px 5px 5px 5px;
+	border-radius:5px 5px 5px 5px;
+}
+
+.bbcode_quote_main a {
+	 color:#c1611a !important;
+}
+
+.bbcode_quote_main a:hover {
+	 color:#c8cbcf !important;
+	 background:#646c74 !important;
+         border-radius: 5px;
+
+}
+
+.TrBbcodeQuoteByxIn09 {
+	 border-bottom:1px solid #f8eabb;
+	 font-weight:bold;
+	 padding-bottom:6px;
+	 font-family:"Droid Arabic Kufi","Open Sans",sans-serif;
+}
+
+.QuoteIcon {
+	 color:#cd8a33;
+	 float:right;
+	 font-size:36px !important;
+	 text-shadow:0 1px 1px #fff;
+}
+
+.QuoteMes {
+	 margin:0 40px 5px 0;
+}
+
+.bbcode_quote_byx_in_text {
+	font-weight:lighter;
+	padding-bottom:6px;
+	font-family:"Droid Arabic Kufi","Open Sans",sans-serif;
+	font-size:12px;
+	border-top-style:solid;
+	border-top-width:1px;
+	border-top-color:#FFFFFF;
+	padding-top:10px;
+}
+
+.bbcode_quote_nobyx{
+	 border-bottom:1px solid #f8eabb;
+	 font-family:"Droid Arabic Kufi","Open Sans",sans-serif;
+	 font-size:11px;
+	 font-weight:bold;
+	 margin-left:2px;
+	 margin-right:2px;
+	 margin-top:4px;
+	 padding:7px;
+}
+.PrevNextThread a {
+    background-color: #DBECC0;
+    margin: 4px;
+    padding: 2px 4px 2px 4px;
+    font-family: "Droid Arabic Kufi","Open Sans",sans-serif;
+    font-size: 15px;
+    border: 1px solid #B5CD8E;
+    box-shadow: 0px 0px 3px #E2E2E2;
+    border-radius: 5px;
+    color: #4C6A13;
+    font-weight: lighter
+}
+.TactiveusersT {
+    background: #fff;
+    color: #4e8613;
+    font-family: "Droid Arabic Kufi","Open Sans",sans-serif;
+    font-weight: lighter;
+    border-bottom: 1px dotted #85af59;
+}
+.Forumsimilar {
+    background-color: #D5E9C0;
+    color: #557E2C;
+    border: 1px solid #BADC98;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    padding: 8px;
+    margin: 0px;
+    font-family: "Droid Arabic Kufi", Tahoma, Calibri, Verdana, Geneva, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+}
+.Forumsimilardes {
+    color: #376507;
+    font-weight: lighter;
+
+}
+.ForumsimilarT {
+    padding: 0;
+    margin: 0;
+    font-family: "Droid Arabic Kufi", Tahoma, Calibri, Verdana, Geneva, sans-serif;
+    font-size: 11px;
+    font-weight: lighter;
+}
+
+
+.SimilarTH {
+    background: #D5E9C0;
+    color: #557E2C;
+    font-size: 11px;
+    text-shadow: 0 1px 0 #fff;
+    border-bottom: 1px solid #BADC98;
+    font-family: "Droid Arabic Kufi","Open Sans",sans-serif;
+}
+.Simthread {
+    float: right;
+    width: 40%;
+    text-align: right
+}
+.Simstarter {
+    width: 15%;
+    text-align: right
+
+}
+.Simforum {
+    width: 20%;
+    text-align: right;
+
+}
+.Simreplies {
+    width: 5%;
+    text-align: right;
+}
+.Simlastpost {
+    width: 20%;
+    text-align: left;
+}
+
+/********* footer *********/
+.footer-box {
+    background: none repeat scroll 0px 0px #D5E9C0;
+    border: 6px solid #FFF;
+    border-radius: 1px;
+    font-family: "Droid Arabic Kufi","Open Sans",sans-serif;
+    font-size: 0.8em;
+    font-weight: lighter;
+    padding: 8px;
+    box-shadow: 0px 0px 1px 0px #93C762;
+    border-radius: 0px;
+    color: #3C7209;
+}
+
+#footer {
+   background: none repeat scroll 0 0 #fff;
+
+}
+
+#footer .eFooter {
+    background: none repeat scroll 0 0 #D5E9C0;
+    padding: 10px 0;
+    width: 100%;
+   overflow: hidden;
+   min-height: 20px;
+   border-top: 1px solid #93C762;
+
+}
+#footer .eFooter .Footercount {
+    max-width: 1160px;
+    width: 80%;
+    margin: 0px auto;
+} 
+
+#footer .eFooter .Footercount .FooterLeft {
+    float: left;
+}
+
+#footer .eFooter .Footercount .FooterLeft .FaSc {
+     float: left;
+     display: block;
+
+}
+#footer .eFooter .Footercount .FooterLeft .FaSc ul {
+    font-size: 28px;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+#footer .eFooter .Footercount .FooterLeft .FaSc .simptip-position-bottom {
+}
+
+#footer .eFooter .Footercount .FaSc li {
+    color: #3C7209;
+    display: inline;
+}
+
+#footer .eFooter .Footercount .FooterLeft .FaSc li:hover {
+         color:#2a3238;
+	 text-shadow:0 1px 0 #4c555c;
+	 -webkit-transition:all 0.4s ease-in-out 0s;
+	 -moz-transition:all 0.4s ease-in-out 0s;
+	 -o-transition:all 0.4s ease-in-out 0s;
+	 -ms-transition:all 0.4s ease-in-out 0s;
+	 transition:all 0.4s ease-in-out 0s;
+}
+
+#footer .eFooter .Footercount .copy_bg {
+    padding: 7px 0px 0px;
+    font-size: 12px;
+    float: right;
+}
+
+#footer .eFooter .Footercount .copy_bg .copyrights{
+   font-family: 'Droid Arabic Kufi';
+   color: #3C7209;
+   text-align:center;
+}
+
+#footer .footerbottom {
+    background: none repeat scroll 0 0 #93C762;
+    display: table;
+    width: 100%;
+
+}
+
+#footer .footerbottom .footerLinks {
+    font-family: 'Droid Arabic Kufi';
+	color:#c1cdd5;
+	float:left;
+	margin-left: 30px;
+}
+	
+#footer .footerbottom .footerLinks ul {
+	 font-size: 0.7em;
+         font-weight: lighter;
+         border-radius: 20px;
+         padding: 5px 10px;
+
+}
+
+#footer .footerbottom .footerLinks li {
+	    list-style:outside none none;
+        display: inline;
+	    padding:3px;
+}
+
+#footer .footerbottom .footerLinks li a {
+	color:#31540f;
+	font-weight: bold;
+}
+#footer .footerbottom .footerLinks li a:hover{
+	color:#058469;
+}
+
+#footer .footerbottom .link_foot{
+  float: right;
+}
+#footer .footerbottom .link_foot .navbar-nav {
+    float: none;
+}
+#footer .footerbottom .link_foot .navbar-nav>li{
+  float:none !important;
+  display:inline-block
+}
+#footer .footerbottom .link_foot .navbar-nav li a {
+    padding: 8px;
+    color: #31540f;
+    font-weight: bold;
+}
+
+#footer .footerbottom .link_foot .navbar-nav li a:hover{
+  background:none;
+  color:#139c10;
+}
+.AnswerBlock {
+    display: block;
+}
+.AnswerFloat {
+    width: 175px;
+    float: left;
+}
+.AnswerMar {
+    margin-left: 186px;
+}
+.CatAllP {
+    width: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #e4e4e4;
+    overflow: hidden;
+    min-height: 10px;
+    padding: 8px;
+    background-color: #fff;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+}
+
+.alertdanger {
+    color: #a94442;
+    background-color: #f2dede;
+    font-family: 'Droid Arabic Kufi';
+    border: 1px solid #ebccd1;
+    padding: 2px 5px;
+    border-radius: 5px;
+    text-align: center;
+}
+/********* fontawesome *********/
+
+
+.fa-search:before { 
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    font-size: 20px;
+    margin-left: 8px;
+    margin-right: 8px;
+
+}
+.fa-star:before { 
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    font-size: 20px;
+    margin-left: 8px;
+    margin-right: 8px;
+
+}
+.fa-cog:before { 
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    font-size: 20px;
+    margin-left: 8px;
+    margin-right: 8px;
+
+}
+
+/********************************* Core ******************************/
+[data-tooltip] {
+  position: relative;
+  display: inline-block;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+}
+[data-tooltip]:before, [data-tooltip]:after {
+  position: absolute;
+  visibility: hidden;
+  opacity: 0;
+  z-index: 999999;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+[data-tooltip]:before {
+  content: '';
+  border: 6px solid transparent;
+}
+[data-tooltip]:after {
+  height: 20px;
+  padding:4px 11px 0 11px;
+  font-size: 9px;
+  font-family:"Droid Arabic Kufi","Open Sans",sans-serif;
+  font-weight:lighter;
+  opacity:0.7;
+  	-webkit-box-shadow:0px 1px 3px #717171;
+	-moz-box-shadow:0px 1px 3px #717171;
+	box-shadow:0px 1px 3px #717171;
+  line-height: 16px;
+  border-radius:4px;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+  content: attr(data-tooltip);
+  white-space: nowrap;
+}
+[data-tooltip].simptip-position-top:before {
+  border-top-color: #323232;
+}
+[data-tooltip].simptip-position-top:after {
+  background-color: #323232;
+  color: #ecf0f1;
+}
+[data-tooltip].simptip-position-bottom:before {
+  border-bottom-color: #323232;
+}
+[data-tooltip].simptip-position-bottom:after {
+  background-color: #323232;
+  color: #ecf0f1;
+}
+[data-tooltip].simptip-position-left:before {
+  border-left-color: #323232;
+}
+[data-tooltip].simptip-position-left:after {
+  background-color: #323232;
+  color: #ecf0f1;
+}
+[data-tooltip].simptip-position-right:before {
+  border-right-color: #323232;
+}
+[data-tooltip].simptip-position-right:after {
+  background-color: #323232;
+  color: #ecf0f1;
+}
+[data-tooltip].simptip-position-top.half-arrow:before {
+  border-right: 7px solid #323232;
+}
+[data-tooltip].simptip-position-bottom.half-arrow:before {
+  border-right: 7px solid #323232;
+}
+[data-tooltip]:hover, [data-tooltip]:focus {
+  background-color: transparent;
+}
+[data-tooltip]:hover:before, [data-tooltip]:hover:after, [data-tooltip]:focus:before, [data-tooltip]:focus:after {
+  opacity: 0.8;
+  visibility: visible;
+}
+
+/******************************* Position ****************************/
+.simptip-position-right:before, .simptip-position-left:before, .simptip-position-right:after, .simptip-position-left:after {
+  bottom: 50%;
+}
+.simptip-position-right:before, .simptip-position-left:before {
+  margin-bottom: -5px;
+}
+.simptip-position-right:after, .simptip-position-left:after {
+  margin-bottom: -14.66667px;
+}
+.half-arrow.simptip-position-right:before, .half-arrow.simptip-position-left:before {
+  bottom: 16px;
+  border-style: none;
+  border-top: 7px solid transparent;
+}
+.simptip-multiline.simptip-position-right:before, .simptip-multiline.simptip-position-left:before, .simptip-multiline.simptip-position-right:after, .simptip-multiline.simptip-position-left:after {
+  -webkit-transform: translateY(50%);
+  -moz-transform: translateY(50%);
+  -ms-transform: translateY(50%);
+  -o-transform: translateY(50%);
+  transform: translateY(50%);
+  -webkit-filter: blur(0px);
+  filter: blur(0px);
+  margin-bottom: 0;
+}
+.simptip-multiline.simptip-position-right:before, .simptip-multiline.simptip-position-left:before {
+  margin-bottom: 0;
+}
+.simptip-multiline.half-arrow.simptip-position-right:before, .simptip-multiline.half-arrow.simptip-position-left:before {
+  margin-bottom: -2px;
+}
+
+.simptip-position-right:before, .simptip-position-right:after {
+  left: 100%;
+}
+.simptip-position-right:before {
+  margin-left: -2px;
+}
+.simptip-position-right:after {
+  margin-left: 10px;
+}
+.simptip-position-right.simptip-movable:before {
+  margin-left: -10px;
+}
+.simptip-position-right.simptip-movable:after {
+  margin-left: 2px;
+}
+.simptip-position-right.simptip-movable:hover:before, .simptip-position-right.simptip-movable:hover:after {
+  -webkit-transform: translateX(10px);
+  -moz-transform: translateX(10px);
+  -ms-transform: translateX(10px);
+  -o-transform: translateX(10px);
+  transform: translateX(10px);
+}
+.simptip-position-right.simptip-movable.half-arrow:before {
+  margin-left: -5px;
+}
+.simptip-position-right.simptip-movable.simptip-multiline:hover:before, .simptip-position-right.simptip-movable.simptip-multiline:hover:after {
+  -webkit-transform: translate(10px, 50%);
+  -moz-transform: translate(10px, 50%);
+  -ms-transform: translate(10px, 50%);
+  -o-transform: translate(10px, 50%);
+  transform: translate(10px, 50%);
+}
+.simptip-position-right.half-arrow:before {
+  margin-left: 3px;
+  border-right: 7px solid #323232;
+}
+
+.simptip-position-left:before, .simptip-position-left:after {
+  right: 100%;
+}
+.simptip-position-left:before {
+  margin-right: -2px;
+}
+.simptip-position-left:after {
+  margin-right: 10px;
+}
+.simptip-position-left.simptip-movable:before {
+  margin-right: -10px;
+}
+.simptip-position-left.simptip-movable:after {
+  margin-right: 2px;
+}
+.simptip-position-left.simptip-movable:hover:before, .simptip-position-left.simptip-movable:hover:after {
+  -webkit-transform: translateX(-10px);
+  -moz-transform: translateX(-10px);
+  -ms-transform: translateX(-10px);
+  -o-transform: translateX(-10px);
+  transform: translateX(-10px);
+}
+.simptip-position-left.simptip-movable.half-arrow:before {
+  margin-right: -5px;
+}
+.simptip-position-left.simptip-movable.simptip-multiline:hover:before, .simptip-position-left.simptip-movable.simptip-multiline:hover:after {
+  -webkit-transform: translate(-10px, 50%);
+  -moz-transform: translate(-10px, 50%);
+  -ms-transform: translate(-10px, 50%);
+  -o-transform: translate(-10px, 50%);
+  transform: translate(-10px, 50%);
+}
+.simptip-position-left.half-arrow:before {
+  margin-right: 3px;
+  border-left: 7px solid #323232;
+}
+
+.simptip-position-bottom:before, .simptip-position-top:before, .simptip-position-bottom:after, .simptip-position-top:after {
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+.simptip-position-bottom:after, .simptip-position-top:after {
+  width: auto;
+}
+.half-arrow.simptip-position-bottom:before, .half-arrow.simptip-position-top:before {
+  border-style: none;
+  border-right: 7px solid #323232;
+}
+
+.simptip-position-bottom:before, .simptip-position-bottom:after {
+  top: 100%;
+}
+.simptip-position-bottom:before {
+  margin-top: -5px;
+}
+.simptip-position-bottom:after {
+  margin-top: 7px;
+}
+.simptip-position-bottom:hover:before, .simptip-position-bottom:hover:after {
+  -webkit-transform: translate(-50%, 0);
+  -moz-transform: translate(-50%, 0);
+  -ms-transform: translate(-50%, 0);
+  -o-transform: translate(-50%, 0);
+  transform: translate(-50%, 0);
+}
+.simptip-position-bottom.simptip-movable:before {
+  margin-top: -15px;
+}
+.simptip-position-bottom.simptip-movable:after {
+  margin-top: -3px;
+}
+.simptip-position-bottom.simptip-movable:hover:before, .simptip-position-bottom.simptip-movable:hover:after {
+  -webkit-transform: translate(-50%, 10px);
+  -moz-transform: translate(-50%, 10px);
+  -ms-transform: translate(-50%, 10px);
+  -o-transform: translate(-50%, 10px);
+  transform: translate(-50%, 10px);
+}
+.simptip-position-bottom.simptip-movable.half-arrow:before {
+  margin-top: -10px;
+}
+.simptip-position-bottom.half-arrow:before {
+  margin-top: 0;
+  border-top: 7px solid transparent;
+}
+
+.simptip-position-top:before, .simptip-position-top:after {
+  bottom: 100%;
+}
+.simptip-position-top:before {
+  margin-bottom: -5px;
+}
+.simptip-position-top:after {
+  margin-bottom: 7px;
+}
+.simptip-position-top:hover:before, .simptip-position-top:hover:after {
+  -webkit-transform: translate(-50%, 0px);
+  -moz-transform: translate(-50%, 0px);
+  -ms-transform: translate(-50%, 0px);
+  -o-transform: translate(-50%, 0px);
+  transform: translate(-50%, 0px);
+}
+.simptip-position-top.simptip-movable:before {
+  margin-bottom: -15px;
+}
+.simptip-position-top.simptip-movable:after {
+  margin-bottom: -3px;
+}
+.simptip-position-top.simptip-movable:hover:before, .simptip-position-top.simptip-movable:hover:after {
+  -webkit-transform: translate(-50%, -10px);
+  -moz-transform: translate(-50%, -10px);
+  -ms-transform: translate(-50%, -10px);
+  -o-transform: translate(-50%, -10px);
+  transform: translate(-50%, -10px);
+}
+.simptip-position-top.simptip-movable.half-arrow:before {
+  margin-bottom: -10px;
+}
+.simptip-position-top.half-arrow:before {
+  margin-bottom: 0;
+  border-bottom: 7px solid transparent;
+}
+
+/******************************* Features ****************************/
+.simptip-movable:before, .simptip-movable:after {
+  -webkit-transition: all 0.1s linear;
+  -moz-transition: all 0.1s linear;
+  -o-transition: all 0.1s linear;
+  -ms-transition: all 0.1s linear;
+  transition: all 0.1s linear;
+}
+
+.simptip-smooth:after {
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+}
+
+.simptip-fade:before, .simptip-fade:after {
+  -webkit-transition: opacity 0.2s linear, visibility 0.2s linear;
+  -moz-transition: opacity 0.2s linear, visibility 0.2s linear;
+  -o-transition: opacity 0.2s linear, visibility 0.2s linear;
+  -ms-transition: opacity 0.2s linear, visibility 0.2s linear;
+  transition: opacity 0.2s linear, visibility 0.2s linear;
+}
+
+.simptip-multiline:after {
+  height: auto;
+  width: 150px;
+  padding: 11px;
+  line-height: 19px;
+  white-space: normal;
+  text-align: left;
+}
+
+/**************************** Diverse Colors *************************/
+.simptip-success.simptip-position-top:before {
+  border-top-color: #62c462;
+}
+.simptip-success.simptip-position-top:after {
+  background-color: #62c462;
+  color: #ecf0f1;
+}
+.simptip-success.simptip-position-bottom:before {
+  border-bottom-color: #62c462;
+}
+.simptip-success.simptip-position-bottom:after {
+  background-color: #62c462;
+  color: #ecf0f1;
+}
+.simptip-success.simptip-position-left:before {
+  border-left-color: #62c462;
+}
+.simptip-success.simptip-position-left:after {
+  background-color: #62c462;
+  color: #ecf0f1;
+}
+.simptip-success.simptip-position-right:before {
+  border-right-color: #62c462;
+}
+.simptip-success.simptip-position-right:after {
+  background-color: #62c462;
+  color: #ecf0f1;
+}
+.simptip-success.simptip-position-top.half-arrow:before {
+  border-right: 7px solid #62c462;
+}
+.simptip-success.simptip-position-bottom.half-arrow:before {
+  border-right: 7px solid #62c462;
+}
+
+.simptip-info.simptip-position-top:before {
+  border-top-color: #5bc0de;
+}
+.simptip-info.simptip-position-top:after {
+  background-color: #5bc0de;
+  color: #ecf0f1;
+}
+.simptip-info.simptip-position-bottom:before {
+  border-bottom-color: #5bc0de;
+}
+.simptip-info.simptip-position-bottom:after {
+  background-color: #5bc0de;
+  color: #ecf0f1;
+}
+.simptip-info.simptip-position-left:before {
+  border-left-color: #5bc0de;
+}
+.simptip-info.simptip-position-left:after {
+  background-color: #5bc0de;
+  color: #ecf0f1;
+}
+.simptip-info.simptip-position-right:before {
+  border-right-color: #5bc0de;
+}
+.simptip-info.simptip-position-right:after {
+  background-color: #5bc0de;
+  color: #ecf0f1;
+}
+.simptip-info.simptip-position-top.half-arrow:before {
+  border-right: 7px solid #5bc0de;
+}
+.simptip-info.simptip-position-bottom.half-arrow:before {
+  border-right: 7px solid #5bc0de;
+}
+
+.simptip-danger.simptip-position-top:before {
+  border-top-color: #e74c3c;
+}
+.simptip-danger.simptip-position-top:after {
+  background-color: #e74c3c;
+  color: #ecf0f1;
+}
+.simptip-danger.simptip-position-bottom:before {
+  border-bottom-color: #e74c3c;
+}
+.simptip-danger.simptip-position-bottom:after {
+  background-color: #e74c3c;
+  color: #ecf0f1;
+}
+.simptip-danger.simptip-position-left:before {
+  border-left-color: #e74c3c;
+}
+.simptip-danger.simptip-position-left:after {
+  background-color: #e74c3c;
+  color: #ecf0f1;
+}
+.simptip-danger.simptip-position-right:before {
+  border-right-color: #e74c3c;
+}
+.simptip-danger.simptip-position-right:after {
+  background-color: #e74c3c;
+  color: #ecf0f1;
+}
+.simptip-danger.simptip-position-top.half-arrow:before {
+  border-right: 7px solid #e74c3c;
+}
+.simptip-danger.simptip-position-bottom.half-arrow:before {
+  border-right: 7px solid #e74c3c;
+}
+
+.simptip-warning.simptip-position-top:before {
+  border-top-color: #e67e22;
+}
+.simptip-warning.simptip-position-top:after {
+  background-color: #e67e22;
+  color: #ecf0f1;
+}
+.simptip-warning.simptip-position-bottom:before {
+  border-bottom-color: #e67e22;
+}
+.simptip-warning.simptip-position-bottom:after {
+  background-color: #e67e22;
+  color: #ecf0f1;
+}
+.simptip-warning.simptip-position-left:before {
+  border-left-color: #e67e22;
+}
+.simptip-warning.simptip-position-left:after {
+  background-color: #e67e22;
+  color: #ecf0f1;
+}
+.simptip-warning.simptip-position-right:before {
+  border-right-color: #e67e22;
+}
+.simptip-warning.simptip-position-right:after {
+  background-color: #e67e22;
+  color: #ecf0f1;
+}
+.simptip-warning.simptip-position-top.half-arrow:before {
+  border-right: 7px solid #e67e22;
+}
+.simptip-warning.simptip-position-bottom.half-arrow:before {
+  border-right: 7px solid #e67e22;
+}
+/** APP LAUNCHER BUTTON **/
+.settingsmenu {
+    font-family: 'Droid Arabic Kufi', serif !important; font-weight:normal !important; 
+    display:block; 
+    background-color: #3A4249; 
+    padding: 0px 0px; 
+    width: 200px; 
+    border-radius: 0px; 
+    position:absolute; 
+    top: 58px; 
+    z-index:104 ; 
+    font-size: 12px ; 
+    height:100%;
+    padding: 10px;
+    left: 0px;
+    border-radius: 0px 0px 10px 0px;
+
+}
+ .mun{
+  float: left;
+  margin-top: 10px;
+  font-size: 25px;
+}
+@media screen  and  (max-width:480px) {
+
+.TmpComments .LeftPost {
+    margin-right: 0px;
+}
+.TmpComments .RightPost {
+    border-radius: 0 !important;
+    float: none !important;
+    margin-bottom: 5px;
+    overflow: hidden;
+    width: auto !important;
+}
+.TmpComments .RightPost .CommUserImg {
+
+    display: block;
+}
+.TmpComments .RightPost .CommUserInfo {
+
+    display: none;
+}
+.Rating {
+
+    display: none;
+}
+
+.TmpComments .RightPost .Internal {
+
+    float: left;
+}
+.TmpComments .RightPost .Social {
+
+    float: right;
+}
+.Tr09QuickReply {
+  background-color: none !important;
+  border-radius: none !important;
+  box-shadow: none !important;
+  color: none !important;
+  font-family: "Droid Arabic Kufi","Open Sans",sans-serif;
+  font-size: 12px;
+  font-weight: lighter;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+  text-shadow: 0 1px 0 #ddf1f5;
+  width: auto;
+}
+.panel {
+  background: #fefefe;
+  color: #000000;
+  padding: 0px;
+  border: 0px outset;
+  padding: 6px;
+  border-radius: 10px;
+}
+#vB_Editor_QR {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+#vB_Editor_QR_textarea, #vB_Editor_QR_textarea:hover {
+    background: none repeat scroll 0 0 #ffffff !important;
+    box-shadow: none !important;
+    width: 100% !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+#vB_Editor_QR_controls {
+  display: none;
+}
+.msgReply {
+  margin: 10px auto 5px;
+  background: none repeat scroll 0px 0px #93C762;
+  border-radius: 5px;
+  color: #FFF;
+  font-family: tahoma;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 16px;
+  padding-bottom: 6px;
+  width: 100%;
+  padding-top: 6px;
+  text-align: center;
+}
+
+.PostUserName {
+  font-family: "Droid Arabic Kufi","Open Sans",sans-serif;
+  font-size: 13px;
+  font-weight: lighter;
+  line-height: 7px;
+  margin-top: 5px;
+  margin-right: 0px;
+}
+
+.FHLeft {
+    display: none;
+}
+.img-count2 {
+    display: none;
+}
+.imgboarder {
+    display: none;
+}
+.h-hide {
+    color: #6A6A6A;
+    display: block;
+    font-size: 11px;
+    margin-bottom: 5px;
+}
+.lastpost-hide {
+    color: #6A6A6A;
+    display: block;
+}
+line {
+    border: 1px #EEE solid;
+    display: block;
+}
+.replies {
+    display: none;
+}
+.views {
+        display: none;
+}
+.posts {
+        display: none;
+}
+.helperIconTitle {
+    font-size: 16px !important;
+}
+.icon {
+    display: none;
+}
+.icontopic {
+    display: none;
+}
+.icontopic2 {
+    display: none;
+}
+.FD5Screen, .FD6Screen, .FD8Screen {
+    display: none;
+}
+.similar {
+    display: none;
+}
+.tbordersimilarthread {
+    display: none;
+}
+.PrevNextThread {
+    display: none;
+}
+.ReplyUserImg {
+    display: none;
+}
+.Triangle {
+    display: none;
+}
+.sticky {
+  display: none;
+}
+.img-count {
+    display: none;
+}
+.subforum-header {
+    display: none;
+}
+.posts-count {
+    display: none;
+}
+.topics-count {
+    display: none;
+}
+.lastpostinfo {
+    display: none;
+}
+.newestmember {
+    display: none;
+}
+.InfoFormhome {
+    margin-right: 0px;
+    font-family: "Droid Arabic Kufi","Open Sans",sans-serif;
+    color: #000;
+}
+.forumhomeleft {
+    display: none;
+}
+.forumhomeright {
+    margin-left: 0px;
+    padding: 0px;
+}
+.forum {
+    padding: 10px;
+    background-color: #FFF;
+    margin: 10px 0px;
+    position: relative;
+    margin-left: 0px;
+}
+
+.PosLeft {
+    display: none;
+}
+.TmpPost {
+    border: 1px solid #93C762;
+    margin: 0px;
+    padding: 0;
+    margin-left: 0px;
+    border-color: #93c762 #dedede #93c762 #dedede;
+    border-style: solid;
+    border-width: 1px;
+}
+.TmpPost .HeaderPost {
+    background: none repeat scroll 0 0 #fff;
+    margin: 0px;
+    overflow: hidden;
+    padding: 10px 10px 5px 2px;
+
+}
+.TmpPost .HeaderPost .CommUserInfo {
+    display: none;
+}
+.HideTimeCount {
+    display: block;
+    font-family: "Droid Arabic Kufi","Open Sans",sans-serif;
+    color: #4a7d1b;
+    margin-bottom: 20px;
+    font-size: 11px;
+    font-weight: lighter;
+}
+.HideTimeCount .HideTime {
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+    border: 1px solid #93C762;
+    border-radius: 5px;
+    padding: 3px;
+    background: #FFF;
+}
+.HideTimeCount .HideCount {
+    float: right;
+    margin-left: 10px;
+    margin-top: 10px;
+    border: 1px solid #93C762;
+    border-radius: 5px;
+    padding: 3px;
+    background: #FFF;
+}
+.TmpComments .RightPost .CommUserImg {
+    float: right;
+    max-width: 25%;
+}
+.TmpComments .RightPost .CommUserImg img {
+    max-height: 50px;
+    max-width: 50px;
+}
+.TmpComments .RightPost .Social {
+    float: none;
+}
+
+.Controls {
+    margin-right: 10px;
+}
+.TmpComments .LeftPost .FooterPost .Controls li {
+    background: none repeat scroll 0 0 #fff;
+    border: 1px solid #c0c0c0;
+    display: inline;
+    font-family: "Droid Arabic Kufi","Open Sans",sans-serif;
+    box-shadow: inset 0px -2px 0px rgba(0,0,0,0.3);
+    font-size: 0.7em;
+    font-weight: lighter;
+    padding: 1px;
+}
+
+.sectionsharePage {
+    display: none;
+}
+.AnswerMar {
+    margin-left: 0px;
+}
+.AnswerFloat {
+    display: none;
+}
+#helper-Offers {
+    display: none;
+}
+#forumhomeBody {
+    background-color: #FEFEFE;
+    border: 1px solid #E0E0E0;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    padding: 4px;
+    margin-left: 0px;
+}
+#footer .Footercount .FooterLeft .FaSc {
+    float: left;
+    display: block;
+    margin-left: 50px;
+}
+#footer .Footercount .FooterLeft .footerLinks ul {
+    font-size: 0.7em;
+    font-weight: lighter;
+    background-color: rgb(44, 60, 77);
+    border-bottom: 1px solid hsla(240, 100%, 100%, 0.4);
+    border-radius: 20px;
+    padding: 5px 10px;
+    margin-left: 0px;
+}
+.forumhomestat {
+    background-color: #D5E9C0;
+    color: #557E2C;
+    border: 1px solid #BADC98;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    padding: 8px;
+    margin: 0px;
+    font-family: "Droid Arabic Kufi", Tahoma, Calibri, Verdana, Geneva, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    margin-left: 0px;
+}
+.Forumsimilar {
+    display: none;
+}
+@media screen  and  (max-width:400px) {
+.HelperPostbitMessage img {
+    max-width: 250px;
+}
